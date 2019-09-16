@@ -2,7 +2,7 @@
 Fineotech Website
 
 
-- Step on intall
+- Step to intall
 1) clone a project.
 2) Do git lfs install and git lfs pull to get pdf files.
 
