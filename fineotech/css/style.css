@@ -1,8 +1,24 @@
+.header-text-color .navbar-expand-md .navbar-nav .nav-link.active,
+.header-text-color .navbar-expand-md .navbar-nav .nav-link:hover,
+.header-text-color .navbar-expand-md .navbar-nav .nav-link:focus,
+.header-text-color .navbar-brand,
+.header-text-color .navbar-expand-md .navbar-toggler {
+  color: #00aeef;
+}
+.mainmenu-area {
+  padding: 20px 0;
+}
+
+nav .nav-link-text {
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .navbar .nav-item .contact {
     border: 1px solid black;
     border-radius: 40px;
+    padding: 12px 20px;
   }
 }
 .navbar .nav-item .nav-link-text {
@@ -19,7 +35,8 @@
     } */
 
 .about .btn {
-  background-color: #dfedf2;
+  background-color: #ebf9fe;
+  font-weight: bold;
 }
 
 .about .about-btn {
@@ -30,10 +47,26 @@
   font-size: 20px;
 }
 
+.about-hr {
+  border-top: 1px solid #c9c9c9;
+  width: 50%;
+}
+
+#about {
+  position: relative;
+  /* background: #f2f2f2; */
+  padding-top: 80px;
+}
+
 .section .section-header .section-title span {
   color: #00aeef;
   text-transform: none;
-  font-weight: normal;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.section {
+  padding: 120px 0 205px 0;
 }
 
 .tech {
@@ -43,6 +76,7 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   color: white;
+  padding: 160px 0;
 }
 
 .tech.after {
@@ -60,7 +94,8 @@
 }
 
 .tech .tech-body .tech-body-text-1 {
-  color: darkgray;
+  color: #b5b5b5;
+  font-size: 16px;
 }
 
 .tech .tech-body .tech-body-text-2 {
@@ -95,8 +130,80 @@ footer .footer-logo {
   color: #00aeef;
 }
 
-.item-boxes:hover {
-  transform: scale(0.9, 0.9);
-  /* box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 15px rgba(0, 0, 0, 0.22); */
+p.footer-header {
+  font-weight: 500;
+}
+
+p.footer-text,
+ul.footer-text,
+a.footer-text,
+p.footer-text a,
+ul.footer-text a,
+a.footer-text a,
+ul.footer-text a.active,
+ul.footer-text a.visited,
+ul.footer-text a.focus {
+  color: #efefef;
+}
+
+p.address-text {
+  color: #ababab;
+}
+
+.analysis {
+  padding: 130px 0;
+}
+/* web development page */
+
+.web-header {
+  background-image: url("../img/features/WebMain.png");
+  padding: 173px 0px 445px 0px;
+  height: auto; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: white;
+}
+
+.web-header .web-header-text {
+  color: black;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.web-header .web-btn .btn {
+  background-color: #ebf9fe;
+  font-weight: bold;
+}
+
+.web-header .web-btn .btn-round-lg {
+  border-radius: 30px;
+  color: black;
+}
+
+.web-solution .web-solution-header .web-solution-title {
+  color: #000000;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+}
+
+.web-solution .web-solution-header .web-solution-text {
+  font-size: 18px;
+  padding-top: 20px;
+}
+.web-solution .img-fluid {
+  max-width: 150px;
+  height: auto;
+  padding-top: 20px;
+}
+
+.web-solution-hr {
+  border-top: 1px solid #c9c9c9;
+  width: 100%;
+}
+
+.web-solution .web-align-1 {
+  display: inline-flex;
 }

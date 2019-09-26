@@ -1,123 +1,50 @@
 <?php require './header.php'?>
+<!-- Main Carousel Section -->
 
-<!-- Header Section Start -->
-<header id="slider-area">
-    <!-- <div class="menu-wrap">
-        <nav class="menu">
-            <div class="icon-list navbar-collapse">
-                <div class="about-info">
-                    <h3 class="sidebar-title">About</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. sequi ducimus. Voluptate ab esse
-                        maiores
-                        corporis.</p>
-                </div>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#">Purchase Now</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#">Support</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <button class="close-button" id="close-button"><i class="lnr lnr-cross"></i></button>
-    </div> -->
-
-    <nav class="navbar navbar-expand-md fixed-top scrolling-navbar mainmenu-area">
-        <div class="container">
-            <a class="navbar-brand" href="index.php"><span class="lnr lnr-diamond"></span> Fineotech Inc.</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="lnr lnr-menu"></i>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll nav-link-text" href="#slider-area">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll nav-link-text" href="#services">SERVICES</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                <a class="nav-link page-scroll" href="#features">Features</a>
-              </li>                             -->
-                    <!-- <li class="nav-item">
-                <a class="nav-link page-scroll" href="#portfolios">Works</a>
-              </li>             -->
-                    <!-- <li class="nav-item">
-                <a class="nav-link page-scroll" href="#pricing">Pricing</a>
-              </li>  -->
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll nav-link-text work pr-5" href="#team">WORK</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                <a class="nav-link page-scroll" href="#blog">Blog</a>
-              </li>  -->
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll nav-link-text contact" href="#contact">CONTACT</a>
-                    </li>
-
-                    <!-- <li class="nav-item">
-                <a class="nav-link page-scroll" href="#subscribe">Subscribe</a>
-              </li> -->
-                    <!-- <li class="nav-item">
-                <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
-              </li> -->
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Main Carousel Section -->
-    <div id="carousel-area">
-        <div id="carousel-slider" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-slider" data-slide-to="1"></li>
-                <li data-target="#carousel-slider" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <img src="img/slider/Scale.png" alt="">
-                    <!-- <div class="carousel-caption">
+<div id="carousel-area">
+    <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-slider" data-slide-to="1"></li>
+            <li data-target="#carousel-slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="img/slider/Scale.png" alt="">
+                <!-- <div class="carousel-caption">
                 <h1>Ultimate Solution for Your<br>Problem</h1>
                 <p>The integration of information, design, and technology</p>
               </div> -->
-                    <!--<a href="#why" class="btn btn-lg btn-border">GET STARTED!</a>-->
-                </div>
-                <div class="carousel-item">
-                    <img src="img/slider/Secure.png" alt="">
-                    <!-- <div class="carousel-caption">
+                <!--<a href="#why" class="btn btn-lg btn-border">GET STARTED!</a>-->
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider/Secure.png" alt="">
+                <!-- <div class="carousel-caption">
                 <h1 class="text-center">We Promise You'll Be<br>Impressed With Fineotech</h1>
                 <p>Fineotech provides technology for Innovators</p>
               </div> -->
-                    <!-- <a href="#" class="btn btn-lg btn-common">Download</a>-->
-                </div>
-                <div class="carousel-item">
-                    <img src="img/slider/Swift.png" alt="">
-                    <!-- <div class="carousel-caption">
+                <!-- <a href="#" class="btn btn-lg btn-common">Download</a>-->
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider/Swift.png" alt="">
+                <!-- <div class="carousel-caption">
                 <h1>You’ve got questions,<br>we’ve got answers</h1>
                 <p>Sometimes the best way to envision the future is to invent it</p>
               </div> -->
-                    <!-- <a href="#" class="btn btn-lg btn-common">Download</a>
+                <!-- <a href="#" class="btn btn-lg btn-common">Download</a>
                <a href="#" class="btn btn-lg btn-border">Learn More</a>-->
-                </div>
             </div>
-            <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
-                <i class="lnr  lnr-arrow-left"></i>
-            </a>
-            <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
-                <i class="lnr  lnr-arrow-right"></i>
-            </a>
         </div>
+        <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+            <i class="lnr  lnr-arrow-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+            <i class="lnr  lnr-arrow-right"></i>
+        </a>
     </div>
+</div>
 
-</header>
+
 <!-- Header Section End -->
 <!-- Who We Are Section start -->
 <section id="about" class="about">
@@ -154,6 +81,7 @@
         </div>
     </div>
 </section>
+<hr class="about-hr">
 <!-- Who We Are Section end -->
 
 <!-- Services Section Start -->
@@ -170,7 +98,7 @@
         </div>
 
         <div class="row ">
-            <div class="col-md-4 col-sm-6 d-flex">
+            <div class="col-md-4 col-sm-4 d-flex">
                 <div class="item-boxes" data-wow-delay="1s">
                     <div class="py-4">
                         <img class="img-fluid" src="img/features/Web App Devepment.png" alt="">
@@ -181,7 +109,7 @@
                         terrain. </p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 d-flex">
+            <div class="col-md-4 col-sm-4 d-flex">
                 <div class="item-boxes" data-wow-delay="0.2s">
                     <div class="services-img py-4">
                         <img class="img-fluid" src="img/features/Mobile App Development.png" alt="">
@@ -191,7 +119,7 @@
                         mobile applications that are high performing, secure, digitally transformative.</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 d-flex">
+            <div class="col-md-4 col-sm-4 d-flex">
                 <div class="item-boxes" data-wow-delay="0.4s">
                     <div class="services-img py-4">
                         <img class="img-fluid" src="img/features/Group 10642.png" alt="">
@@ -207,7 +135,7 @@
 </section>
 <!-- Services Section End -->
 
-<section id="tech" class="tech py-5">
+<section id="tech" class="tech">
     <div class="container after">
         <div class="row align-items-center">
             <div class="col-md-6 col-sm-12">

@@ -5,26 +5,26 @@
                 <div class="text-white text-left">
                     <a class="navbar-brand footer-logo" href="index.html"><span class="lnr lnr-diamond"></span>
                         Fineotech Inc.</a>
-                    <p class="text-white">437M, Belmount Road <br> Helvitica Springs,120029</p>
+                    <p class="address-text">437M, Belmount Road <br> Helvitica Springs,120029</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="text-white text-left">
                     <p class="footer-header">Quick Links</p>
-                    <ul>
-                        <li href="#">About Us</li>
-                        <li href="#">Services</li>
-                        <li href="#">Blog</li>
-                        <li href="#">Contact</li>
+                    <ul class="footer-text">
+                        <li><a href="javascript:void(0)">About Us</a></li>
+                        <li><a href="javascript:void(0)">Services</a></li>
+                        <li><a href="javascript:void(0)">Blog</a></li>
+                        <li><a href="javascript:void(0)">Contact</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="text-white text-left">
                     <p class="footer-header">Support Links</p>
-                    <ul>
-                        <li href="#">Community</li>
-                        <li href="#">Report Abuse</li>
+                    <ul class="footer-text">
+                        <li><a href="javascript:void(0)">Community</a></li>
+                        <li><a href="javascript:void(0)">Report Abuse</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,13 +38,13 @@
         <div class="row">
             <div class="col">
                 <div class="copyright-section text-white text-left">
-                    <p>&copy; 2019 fineotech.com </p>
+                    <p class="footer-text">&copy; 2019 fineotech.com </p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="copyright-section-privacy text-white text-right">
-                    <p>Privacy Policy</p>&nbsp &nbsp
-                    <p>Terms And Condition</p>
+                    <p class="footer-text"><a href="javascript:void(0)">Privacy Policy</a></p>&nbsp &nbsp
+                    <p class="footer-text"><a href="javascript:void(0)">Terms And Condition</a></p>
                 </div>
             </div>
         </div>

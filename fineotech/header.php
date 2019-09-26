@@ -8,7 +8,7 @@
     <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Grayrids">
-    <title>Fineotech</title>
+    <title>Crystal - Bootstrap 4 Template</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -29,6 +29,37 @@
 
     <!-- Styles  -->
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+
+
 </head>
 
+
 <body>
+    <header class="header-text-color">
+        <nav class="navbar navbar-expand-md fixed-top scrolling-navbar mainmenu-area">
+            <div class="container">
+                <a class="navbar-brand" href="index.php"><span class="lnr lnr-diamond"></span> Fineotech Inc.</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="lnr lnr-menu"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll nav-link-text" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll nav-link-text" href="#services">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll nav-link-text work pr-5" href="#team">WORK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll nav-link-text contact" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
