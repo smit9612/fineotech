@@ -1,0 +1,102 @@
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .navbar .nav-item .contact {
+    border: 1px solid black;
+    border-radius: 40px;
+  }
+}
+.navbar .nav-item .nav-link-text {
+  font-style: bold;
+}
+
+.about .btn-round-lg {
+  border-radius: 30px;
+  color: black;
+}
+
+/* .btn-round{
+    border-radius: 20px;
+    } */
+
+.about .btn {
+  background-color: #dfedf2;
+}
+
+.about .about-btn {
+  padding-top: 30px;
+}
+
+.about .about-text {
+  font-size: 20px;
+}
+
+.section .section-header .section-title span {
+  color: #00aeef;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.tech {
+  background-image: url("../img/features/Background.jpg");
+  height: auto; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: white;
+}
+
+.tech.after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  color: #000;
+}
+
+.tech .tech-header .tech-header-text {
+  font-size: 30px;
+}
+
+.tech .tech-body .tech-body-text-1 {
+  color: darkgray;
+}
+
+.tech .tech-body .tech-body-text-2 {
+  font-size: 20px;
+}
+
+.tech .tech-part-2 {
+  display: inline-flex;
+}
+
+.tech .tech-part-2 .tech-part-2-text {
+  font-size: 20px;
+}
+
+.tech .tech-part-2 .tech-img {
+  padding-bottom: 5px;
+}
+
+footer {
+  background-color: #000;
+}
+
+footer hr {
+  border-top: 1px solid white;
+}
+
+footer .copyright-section-privacy {
+  display: inline-flex;
+}
+
+footer .footer-logo {
+  color: #00aeef;
+}
+
+.item-boxes:hover {
+  transform: scale(0.9, 0.9);
+  /* box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22); */
+}
