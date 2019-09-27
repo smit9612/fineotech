@@ -76,7 +76,7 @@ nav .nav-link-text {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   color: white;
-  padding: 160px 0;
+  padding: 125px 0;
 }
 
 .tech.after {
@@ -100,6 +100,11 @@ nav .nav-link-text {
 
 .tech .tech-body .tech-body-text-2 {
   font-size: 20px;
+}
+
+.tech .tech-part-2-text {
+  font-size: 20px;
+  padding-top: 15px;
 }
 
 .tech .tech-part-2 {
@@ -153,7 +158,15 @@ p.address-text {
 .analysis {
   padding: 130px 0;
 }
+
+.section .item-boxes a {
+  color: #333;
+}
 /* web development page */
+
+#web-solution-2 {
+  box-shadow: 0 5px 15px -5px rgba(237, 237, 237, 1);
+}
 
 .web-header {
   background-image: url("../img/features/WebMain.png");
@@ -163,11 +176,12 @@ p.address-text {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   color: white;
+  box-shadow: 1px 2px 8px 4px rgba(237, 237, 237, 1);
 }
 
 .web-header .web-header-text {
   color: black;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 100px;
 }
 
@@ -201,9 +215,276 @@ p.address-text {
 
 .web-solution-hr {
   border-top: 1px solid #c9c9c9;
-  width: 100%;
+  width: 60%;
 }
 
 .web-solution .web-align-1 {
   display: inline-flex;
+}
+
+.web-solution .web-solution-section {
+  display: flex;
+  align-items: center;
+}
+
+.web-solution .web-solution-font {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.web-solution .web-solution-img {
+  display: inline-flex;
+}
+
+.web-services .web-services-header .web-services-title {
+  color: #000000;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+}
+
+.web-services .web-services-header .web-services-text {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.web-item-boxes {
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  box-shadow: 1px 2px 8px 4px rgba(237, 237, 237, 1);
+  border: 1px solid darkgrey;
+}
+
+.web-item-boxes:hover {
+  background: #fff;
+  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
+}
+
+.web-item-boxes h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* mobile development */
+
+#mobile-solution-2 {
+  box-shadow: 0 5px 15px -5px rgba(237, 237, 237, 1);
+}
+.mobile-header {
+  background-image: url("../img/features/Mobile Main.png");
+  padding: 173px 0px 445px 0px;
+  height: auto; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: white;
+  box-shadow: 1px 2px 8px 4px rgba(237, 237, 237, 1);
+}
+
+.mobile-header .mobile-header-text {
+  color: black;
+  font-weight: 900;
+  font-size: 100px;
+}
+
+.mobile-header .mobile-btn .btn {
+  background-color: #ebf9fe;
+  font-weight: bold;
+}
+
+.mobile-header .mobile-btn .btn-round-lg {
+  border-radius: 30px;
+  color: black;
+}
+
+.mobile-solution .mobile-solution-header .mobile-solution-title {
+  color: #000000;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+}
+
+.mobile-solution .mobile-solution-header .mobile-solution-text {
+  font-size: 18px;
+  padding-top: 20px;
+}
+.mobile-solution .img-fluid {
+  max-width: 150px;
+  height: auto;
+  padding-top: 20px;
+}
+
+.mobile-solution-hr {
+  border-top: 1px solid #c9c9c9;
+  width: 60%;
+}
+
+.mobile-solution .mobile-solution-section {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-solution .mobile-solution-font {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.mobile-services .mobile-services-header .mobile-services-title {
+  color: #000000;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+}
+
+.mobile-services .mobile-services-header .mobile-services-text {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.mobile-item-boxes {
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  box-shadow: 1px 2px 8px 4px rgba(237, 237, 237, 1);
+  border: 1px solid darkgrey;
+}
+
+.mobile-item-boxes:hover {
+  background: #fff;
+  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
+}
+
+.mobile-item-boxes h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.mobile-solution .mobile-solution-img {
+  display: inline-flex;
+}
+
+/* cloude deve;opment */
+
+.cloud-header {
+  background-image: url("../img/features/Cloud Main.png");
+  padding: 173px 0px 445px 0px;
+  height: auto; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: white;
+  box-shadow: 1px 2px 8px 4px rgba(237, 237, 237, 1);
+}
+
+.cloud-header .cloud-header-text {
+  color: black;
+  font-weight: 900;
+  font-size: 100px;
+}
+
+.cloud-solution .cloud-btn .btn {
+  background-color: #ebf9fe;
+  font-weight: bold;
+}
+
+.cloud-solution .cloud-btn .btn-round-lg {
+  border-radius: 30px;
+  color: black;
+}
+
+.cloud-solution .cloud-solution-header .cloud-solution-title {
+  color: #000000;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+}
+
+.cloud-solution .cloud-solution-header .cloud-solution-text {
+  font-size: 18px;
+  padding-top: 20px;
+}
+.cloud-solution .img-fluid {
+  max-width: 150px;
+  height: auto;
+  padding-top: 20px;
+}
+
+.cloud-solution-hr {
+  border-top: 1px solid #c9c9c9;
+  width: 60%;
+}
+
+.cloud-solution .cloud-solution-section {
+  display: flex;
+  align-items: center;
+}
+
+.cloud-solution .cloud-solution-font {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.cloud-solution .cloud-solution-section {
+  display: flex;
+  align-items: center;
+}
+
+.cloud-solution .cloud-solution-font {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#cloud-solution-2 {
+  box-shadow: 0 5px 15px -5px rgba(237, 237, 237, 1);
+}
+
+.cloud-services .cloud-services-header .cloud-services-title {
+  color: #000000;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+}
+
+.cloud-services .cloud-services-header .cloud-services-text {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.cloud-item-boxes {
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  box-shadow: 1px 2px 8px 4px rgba(237, 237, 237, 1);
+  border: 1px solid darkgrey;
+}
+
+.cloud-item-boxes:hover {
+  background: #fff;
+  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
+}
+
+.cloud-item-boxes h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }

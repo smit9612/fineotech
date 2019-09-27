@@ -75,7 +75,7 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-md-12">
-                    <img class="img-fluid" src="img/features/Group.png" alt="">
+                    <img class="img-fluid" src="img/features/our_payment.png" alt="">
                 </div>
             </div>
         </div>
@@ -97,40 +97,45 @@
                 clients.<br></p>
         </div>
 
-        <div class="row ">
+        <div class="row">
             <div class="col-md-4 col-sm-4 d-flex">
-                <div class="item-boxes" data-wow-delay="1s">
-                    <div class="py-4">
-                        <img class="img-fluid" src="img/features/Web App Devepment.png" alt="">
-                    </div>
-                    <h4>Web App<br>Development</h4>
-                    <p>We deliver tangible results with our client focused and customer-centric approach. Our web
-                        solutions are designed to help enterprises and customers securely navigate through the digital
-                        terrain. </p>
-                </div>
+                <a href="webdevlopment.php">
+                    <div class="item-boxes" data-wow-delay="1s">
+                        <div class="py-4">
+                            <img class="img-fluid" src="img/features/web.png" alt="">
+                        </div>
+                        <h4>Web App<br>Development</h4>
+                        <p>We deliver tangible results with our client focused and customer-centric approach. Our web
+                            solutions are designed to help enterprises and customers securely navigate through the
+                            digital
+                            terrain. </p>
+                </a>
             </div>
-            <div class="col-md-4 col-sm-4 d-flex">
-                <div class="item-boxes" data-wow-delay="0.2s">
+        </div>
+        <div class="col-md-4 col-sm-4 d-flex">
+            <div class="item-boxes" data-wow-delay="0.2s"><a href="mobiledevelopment.php">
                     <div class="services-img py-4">
-                        <img class="img-fluid" src="img/features/Mobile App Development.png" alt="">
+                        <img class="img-fluid" src="img/features/mobile.png" alt="">
                     </div>
                     <h4>Mobile App<br>Development</h4>
                     <p>Our extensive expertise and in-depth technical knowhow help us develop feature packed native
                         mobile applications that are high performing, secure, digitally transformative.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4 d-flex">
-                <div class="item-boxes" data-wow-delay="0.4s">
+                </a></div>
+        </div>
+        <div class="col-md-4 col-sm-4 d-flex">
+            <div class="item-boxes" data-wow-delay="0.4s"><a href="clouddevelopment.php">
                     <div class="services-img py-4">
-                        <img class="img-fluid" src="img/features/Group 10642.png" alt="">
+                        <img class="img-fluid" src="img/features/cloud.png" alt="">
                     </div>
                     <h4>Cloude & Integration<br>Services</h4>
-                    <p>Our system integration experts design solutions to make enterprises efficient as well as better
-                        connected. We deliver high-end business outcomes with the right blend of innovation, process and
+                    <p>Our system integration experts design solutions to make enterprises efficient as well as
+                        better
+                        connected. We deliver high-end business outcomes with the right blend of innovation, process
+                        and
                         IT stacks.</p>
-                </div>
-            </div>
+                </a> </div>
         </div>
+    </div>
     </div>
 </section>
 <!-- Services Section End -->
@@ -164,33 +169,31 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="align-items-center tech-part-2 text-center">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="tech-img">
-                            <img class="img-fluid" src="img/features/Internet of Things.png" alt="">
-                        </div>
-                        <p class="tech-part-2-text">Internet Of Things</p>
+        <div class="container pt-5">
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6">
+                    <div class="tech-img">
+                        <img class="img-fluid" src="img/features/internet_of_things.png" alt="">
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="tech-img">
-                            <img class="img-fluid" src="img/features/Machine Learning.png" alt="">
-                        </div>
-                        <p class="tech-part-2-text">Machine Learning</p>
+                    <p class="tech-part-2-text">Internet<br>Of Things</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="tech-img">
+                        <img class="img-fluid" src="img/features/machine_learning.png" alt="">
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="tech-img">
-                            <img class="img-fluid" src="img/features/Big Data.png" alt="">
-                        </div>
-                        <p class="tech-part-2-text">Big Data</p>
+                    <p class="tech-part-2-text">Machine<br>Learning</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="tech-img">
+                        <img class="img-fluid" src="img/features/big_data.png" alt="">
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="tech-img">
-                            <img class="img-fluid" src="img/features/Business Intelligence.png" alt="">
-                        </div>
-                        <p class="tech-part-2-text">Business Intelligence</p>
+                    <p class="tech-part-2-text">Big Data</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="tech-img">
+                        <img class="img-fluid" src="img/features/business_intelligence.png" alt="">
                     </div>
+                    <p class="tech-part-2-text">Business<br>Intelligence</p>
                 </div>
             </div>
         </div>
