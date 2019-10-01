@@ -3,12 +3,11 @@
         <div class="row pb-5">
             <div class="col-md-3">
                 <div class="text-white text-left">
-                    <a class="navbar-brand footer-logo" href="index.html"><span class="lnr lnr-diamond"></span>
-                        Fineotech Inc.</a>
+                    <a class="navbar-brand footer-logo" href="index.html"><img src="img/features/logo.png" alt="" /></a>
                     <p class="address-text">437M, Belmount Road <br> Helvitica Springs,120029</p>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <div class="text-white text-left">
                     <p class="footer-header">Quick Links</p>
                     <ul class="footer-text">
@@ -19,7 +18,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <div class="text-white text-left">
                     <p class="footer-header">Support Links</p>
                     <ul class="footer-text">
@@ -28,17 +27,17 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-5">
                 <div class="text-white text-left">
                     <p class="footer-header">News Letter</p>
-                    <!-- <div class="input-group">
-                        <input type="search" class="form-control email-control">
+                    <div class="input-group">
+                        <input type="search" class="form-control email-control" placeholder="Email Address">
                         <span class="input-group-btn">
                             <button class="btn subscribe-btn" type="button"><span class="glyphicon glyphicon-search"
                                     aria-hidden="true">
                                 </span>Subscribe</button>
                         </span>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -219,6 +218,11 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginRight = "0";
 }
+
+$(".navbar-nav li a").click(function(event) {
+    if (!$(this).parent().hasClass('dropdown'))
+        $(".navbar-collapse").collapse('hide');
+});
 </script>
 
 

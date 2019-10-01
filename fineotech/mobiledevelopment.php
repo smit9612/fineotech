@@ -76,17 +76,17 @@
 <hr class="hr">
 <section id="mobile-solution-2" class="mobile-solution pt-5 pb-5">
     <div class="container">
-        <!-- <div class="col-md-6">
-            <div class="mobile-solution-text-1">
-                <p>Mobile</p>
+        <div class="row flex-nowrap align-items-center mobile-solution-heading pb-5">
+            <div class="col-md-6">
+                <p class="mobile-solution-heading-1">Mobile</p>
+            </div>
+            <div class="col-md-6">
+                <div class="mobile-solution-heading-text">
+                    <p class="mobile-solution-heading-text-1">Solutions in</p>
+                    <p class="mobile-solution-heading-text-2">Development</p>
+                </div>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="mobile-solution-text-2">
-                <p>Solutions in</p>
-                <p>Development</p>
-            </div>
-        </div> -->
         <div class="row pb-5">
             <div class="col-md-4 mobile-solution-section">
                 <div class="col-md-4 float-left">

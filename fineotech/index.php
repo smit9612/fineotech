@@ -98,7 +98,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-4 col-sm-4 d-flex">
+            <div class="col-md-4 col-sm-12  d-flex">
                 <a href="webdevlopment.php">
                     <div class="item-boxes" data-wow-delay="1s">
                         <div class="py-4">
@@ -112,22 +112,22 @@
                 </a>
             </div>
         </div>
-        <div class="col-md-4 col-sm-4 d-flex">
+        <div class="col-md-4 col-sm-12 d-flex">
             <div class="item-boxes" data-wow-delay="0.2s"><a href="mobiledevelopment.php">
                     <div class="services-img py-4">
                         <img class="img-fluid" src="img/features/mobile.png" alt="">
                     </div>
                     <h4>Mobile App<br>Development</h4>
-                    <p>Our extensive expertise and in-depth technical knowhow help us develop feature packed native
+                    <p>Our extensive expertise and in-depth technical know how help us develop feature packed native
                         mobile applications that are high performing, secure, digitally transformative.</p>
                 </a></div>
         </div>
-        <div class="col-md-4 col-sm-4 d-flex">
+        <div class="col-md-4 col-sm-12 d-flex">
             <div class="item-boxes" data-wow-delay="0.4s"><a href="clouddevelopment.php">
                     <div class="services-img py-4">
                         <img class="img-fluid" src="img/features/cloud.png" alt="">
                     </div>
-                    <h4>Cloude & Integration<br>Services</h4>
+                    <h4>Cloud & Integration<br>Services</h4>
                     <p>Our system integration experts design solutions to make enterprises efficient as well as
                         better
                         connected. We deliver high-end business outcomes with the right blend of innovation, process
@@ -218,17 +218,16 @@
         <div class="row align-items-center">
             <div class="col-md-12">
                 <div class="blog-header">
-                    <p class="blog-title"><span>Our Blog
+                    <p class="blog-title blog-heading-text-1"><span>Our Blog
                         </span></p>
-                    <p class="blogt text-center">Learn about the latest in the technology industry, FinTech<br>and BFSI
-                        (Full Form) from the experts and curators at Fineotech.<br>Also, see updates about our new
-                        venture,
-                        products and projects.
+                    <p class="blogt blog-text-1 text-center">Learn about the latest in the technology industry, FinTech
+                        and Banking, Financial services, and Insurance (BSFI) from the experts and curators at
+                        Fineotech. Also, see updates about our new venture, products and projects.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="row pt-5">
+        <div class="row py-5">
             <div class="col-md-6">
                 <div class="card blog-card">
                     <img class="card-img-top blog-image" src="img/hero-area.jpg" alt="Card image">
@@ -262,37 +261,43 @@
             </div>
             <!-- blog 2 -->
             <div class="col-md-6">
-                <div class="blog-part-1">
-                    <div class="col-md-4 pl-0">
-                        <div class="card blog-card-2">
-                            <img class="card-img-top blog-imag-2" src="img/features/Mobile Main.png" alt="Card image">
+                <div class="card blog-card-2">
+                    <div class="col-md-4 col-sm-4 pl-0">
+                        <div class="blog-part-2-img">
+                            <img class="card-img-top blog-image-2" src="img/hero-area.jpg" alt="Card image">
                         </div>
                     </div>
-                    <div class="col-md-8">
-                        <div class="card-body blog-body-2">
-                            <p class="card-title card-title-tex-2">Things To Keep In Mind While Developing</p>
-                        </div>
-                        <div class="footer-2-btn">
+                    <div class="col-md-8 col-sm-8">
+                        <div class="blog-part-2-content">
+                            <div class="card-body blog-body-2">
+                                <!-- <div class="card-header"> -->
+                                <p class="card-title card-title-text-2">Basic Web App Tips
+                                    for Entrepreneurs</p>
+                                <!-- </div> -->
+                            </div>
                             <div class="card-footer footer-2">
-                                <p>Read Blog</p><i class="blog-btn fa fa-chevron-circle-right blog-part-1-icon"></i>
+                                <p>Read Blog</p><i class="blog-btn-2 fa fa-chevron-circle-right"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- blog 3 -->
-                <div class="blog-part-2">
-                    <div class="col-md-4 pl-0">
-                        <div class="card blog-card-3">
-                            <img class="card-img-top blog-imag-3" src="img/features/cloud.png" alt="Card image">
+
+                <div class="card blog-card-3">
+                    <div class="col-md-4 col-sm-4 pl-0">
+                        <div class="blog-part-3-img">
+                            <img class="card-img-top blog-image-3" src="img/hero-area.jpg" alt="Card image">
                         </div>
                     </div>
-                    <div class="col-md-8">
-                        <div class="card-body blog-body-3">
-                            <p class="card-title card-title-tex-3">Things To Keep In Mind While Developing</p>
-                        </div>
-                        <div class="footer-3-btn">
+                    <div class="col-md-8 col-sm-8">
+                        <div class="blog-part-3-content">
+                            <div class="card-body blog-body-3">
+                                <!-- <div class="card-header"> -->
+                                <p class="card-title card-title-text-3">Basic Web App Tips
+                                    for Entrepreneurs</p>
+                                <!-- </div> -->
+                            </div>
                             <div class="card-footer footer-3">
-                                <p>Read Blog</p><i class="blog-btn fa fa-chevron-circle-right blog-part-2-icon"></i>
+                                <p>Read Blog</p><i class="blog-btn-3 fa fa-chevron-circle-right"></i>
                             </div>
                         </div>
                     </div>

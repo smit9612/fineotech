@@ -72,6 +72,17 @@
 
 <section id="web-solution-2" class="web-solution pt-5 pb-5">
     <div class="container">
+        <div class="row flex-nowrap align-items-center web-solution-heading pb-5">
+            <div class="col-md-6">
+                <p class="web-solution-heading-1">Web</p>
+            </div>
+            <div class="col-md-6">
+                <div class="web-solution-heading-text">
+                    <p class="web-solution-heading-text-1">Solutions in</p>
+                    <p class="web-solution-heading-text-2">Development</p>
+                </div>
+            </div>
+        </div>
         <div class="row pb-5">
             <div class="col-md-4 web-solution-section">
                 <div class="col-md-4 float-left">

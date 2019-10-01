@@ -1,7 +1,7 @@
 <?php require './header.php'?>
 <section id="cloud-header" class="cloud-header">
     <div class="container">
-        <div class="row">
+        <div class="row flex-nowrap">
             <div class="col-md-7 col-sm-12">
                 <h1 class="cloud-header-text pb-5">Cloud and<br>Integration<br>Solutions </h1>
             </div>
@@ -11,21 +11,19 @@
 
 <section id="cloud-solution" class="cloud-solution pt-5 pb-5">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center pt-5">
             <div class="col-md-12">
                 <div class="cloud-solution-header">
-                    <p class="cloud-solution-title"><span>Experts in Mobile Payment Solutions
-                        </span></p>
-                    <p class="cloud-solution-text text-center">From concept to development, our cutting edge payment
-                        solutions enhance your business<br>
-                        security while managing all payment related key operations with maximum efficiency.<br> We have
-                        designed fast, intuitive and secure mobile apps for all major platforms such as<br>
-                        Apple, Android and SenchaTouch.<br><br>
-                        Our mobile apps are enabled with outstanding functionalities that deliver a secure and
-                        smooth<br>
-                        experience to the end user. Our key focus is to innovate and reorient your idea with
-                        advanced<br>
-                        digital applications using a methodological and innovative development strategy.
+                    <p class="cloud-solution-title">OPTIMIZE DIGITAL PAYMENTS WITH CLOUD AND INTEGRATION SOLUTIONS
+                    </p>
+                    <p class="cloud-solution-text text-center">We at Fineotech, aim to transform mobile devices and
+                        gadgets into digital eWallets by enabling them with cloud based solutions and integrations with
+                        third party apps. This offers your customers a full suite of capabilities by escalating the
+                        level of technological convenience.
+
+                        Cloud based mobile payment solutions are simplifying the process by offering the mobile payment
+                        provider to stay in the middle of the transaction and also ensuring security. Beat your
+                        competitors with cloud based solutions that are easy and secure for cross-industry solutions.
                     </p>
                 </div>
             </div>
@@ -44,13 +42,24 @@
 
 <section id="cloud-solution-2" class="cloud-solution pt-5 pb-5">
     <div class="container">
+        <div class="row align-items-center cloud-solution-heading pb-5">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <p class="cloud-solution-heading-1">Cloud</p>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <div class="cloud-solution-heading-text">
+                    <p class="cloud-solution-heading-text-1">Solutions in</p>
+                    <p class="cloud-solution-heading-text-2">Development</p>
+                </div>
+            </div>
+        </div>
         <div class="row pb-5">
             <div class="col-md-4 cloud-solution-section">
                 <div class="col-md-4 float-left">
                     <img class="img-fluid" src="img/features/cloud3_cloud_migration.png" alt="">
                 </div>
                 <div class="col-md-8 float-right">
-                    <p class="cloud-solution-font">Cloud Migrationt<br>& Transformation</p>
+                    <p class="cloud-solution-font">Cloud Migration<br>& Transformation</p>
                 </div>
             </div>
             <div class="col-md-4 cloud-solution-section">
@@ -136,7 +145,7 @@
                         <img class="img-fluid cloud-services-img-fluid" src="img/features/cloud5_integrations.png"
                             alt="">
                     </div>
-                    <h4>NIntegrations<br>
+                    <h4>Integration<br>
                         Workflows & Execution</h4>
                 </div>
             </div>

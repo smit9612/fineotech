@@ -38,7 +38,7 @@
     <header class="header-text-color">
         <nav class="navbar navbar-expand-md fixed-top scrolling-navbar mainmenu-area">
             <div class="container">
-                <a class="navbar-brand" href="index.php"><span class="lnr lnr-diamond"></span> Fineotech Inc.</a>
+                <a class="navbar-brand" href="index.php"> <img src="img/features/logo.png" alt="" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="lnr lnr-menu"></i>

@@ -5,10 +5,22 @@
 .header-text-color .navbar-expand-md .navbar-toggler {
   color: #00aeef;
 }
-.mainmenu-area {
-  padding: 20px 0;
-}
 
+.navbar-expand-md .navbar-nav .nav-link {
+  color: black;
+  font-size: 17px;
+  padding: 15px 12px;
+  position: relative;
+  font-family: raleway;
+  font-weight: 800;
+}
+/* .mainmenu-area {
+  padding: 20px 0;
+} */
+
+.navbar-brand img {
+  max-width: 180px;
+}
 nav .nav-link-text {
   font-weight: bold;
 }
@@ -48,6 +60,8 @@ nav .nav-link-text {
 .about .btn {
   background-color: #ebf9fe;
   font-weight: bold;
+  font-family: Raleway;
+  font-weight: 900;
 }
 
 .about .about-btn {
@@ -56,6 +70,9 @@ nav .nav-link-text {
 
 .about .about-text {
   font-size: 20px;
+  font-family: Raleway;
+  font-weight: 700;
+  color: #787878;
 }
 
 .about-hr {
@@ -72,19 +89,21 @@ nav .nav-link-text {
 .section .section-header .section-title span {
   color: #00aeef;
   text-transform: none;
-  font-weight: 500;
+  font-weight: 900;
   font-size: 35px;
+  font-family: Raleway;
 }
 
 .section-header .section-subtitle {
   margin-top: 15px;
   color: #787878;
-  font-size: 17px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Raleway;
 }
 
 .section {
-  padding: 120px 0 205px 0;
+  padding: 60px 0 205px 0;
 }
 
 .tech {
@@ -109,21 +128,28 @@ nav .nav-link-text {
 
 .tech .tech-header .tech-header-text {
   font-size: 30px;
+  font-family: Raleway;
+  font-weight: 600;
 }
 
 .tech .tech-body .tech-body-text-1 {
   color: #b5b5b5;
   font-size: 16px;
+  font-family: Raleway;
+  font-weight: 600;
 }
 
 .tech .tech-body .tech-body-text-2 {
   font-size: 20px;
+  font-family: Raleway;
+  font-weight: 600;
 }
 
 .tech .tech-part-2-text {
   font-size: 20px;
   padding-top: 15px;
-  font-weight: 500;
+  font-weight: 700;
+  font-family: Raleway;
 }
 
 .tech .tech-part-2 {
@@ -159,18 +185,25 @@ footer .footer-logo {
 }
 
 p.footer-header {
-  font-weight: 500;
+  font-weight: 900;
+  font-family: raleway;
 }
 
 footer .input-group > .form-control.email-control {
-  margin: 0;
-  padding: 0;
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 40px;
+  margin: 0px;
+  padding: 10px;
+  border-top-left-radius: 40px;
+  font-style: italic;
+  border-bottom-left-radius: 40px;
+  width: 100%;
 }
 
 footer .input-group .subscribe-btn {
   background-color: #00aeef;
+  border-radius: 35px;
+  z-index: 9;
+  position: absolute;
+  right: -25px;
 }
 
 p.footer-text,
@@ -183,10 +216,17 @@ ul.footer-text a.active,
 ul.footer-text a.visited,
 ul.footer-text a.focus {
   color: #efefef;
+  font-family: raleway;
+  opacity: 0.9;
+  font-weight: 600;
 }
 
 p.address-text {
   color: #b0b0b0;
+  font-family: raleway;
+  font-weight: 600;
+  font-size: 15px;
+  opacity: 0.8;
 }
 
 .analysis {
@@ -195,6 +235,12 @@ p.address-text {
 
 .section .item-boxes a {
   color: #333;
+  font-family: raleway;
+  font-weight: 600;
+  opacity: 0.8 !important;
+}
+.section .item-boxes p {
+  opacity: 0.8;
 }
 
 .section .item-boxes:hover {
@@ -222,11 +268,19 @@ p.address-text {
 .blog .blog-header .blog-title {
   color: #000000;
   text-transform: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 35px;
   text-align: center;
+  font-family: raleway;
 }
 
+.blog .blog-header .blog-text-1 {
+  font-family: raleway;
+  font-weight: 600;
+  opacity: 0.6;
+  line-height: 20px;
+  font-size: 16px;
+}
 .blog .blog-header .blog-text {
   font-size: 18px;
   padding-top: 20px;
@@ -280,6 +334,8 @@ p.address-text {
 .blog .card .card-title-text {
   font-size: 22px;
   padding: 25px 0 5px 25px;
+  font-family: raleway;
+  font-weight: 700;
 }
 
 .blog .card .footer .blog-btn {
@@ -422,10 +478,10 @@ p.address-text {
 }
 
 /* blog part 1 */
-/* .blog .card.blog-card-2 {
+.blog .card.blog-card-2 {
   flex-direction: row;
   flex-grow: 1;
-  height: 500px;
+  height: 260px;
   width: 100%;
   border-radius: 60px;
   box-shadow: 1px 2px 8px 4px rgba(237, 237, 237, 1);
@@ -435,7 +491,7 @@ p.address-text {
 .blog .blog-card-2 .blog-image-2 {
   width: 100%;
   border-top-left-radius: 60px;
-  height: 500px;
+  height: 260px;
   border-bottom-left-radius: 60px;
 }
 
@@ -444,12 +500,12 @@ p.address-text {
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
   border-top: none;
-  display: inline-flex;
   justify-content: flex-end;
   display: flex;
   align-items: center;
   position: relative;
-  top: 80px;
+  top: 30px;
+  padding: 0px;
 }
 
 .blog .card .footer-2 p {
@@ -467,11 +523,14 @@ p.address-text {
 .blog .card .blog-body-2 {
   max-height: 328px;
   overflow: hidden;
+  padding: 0px;
 }
 
 .blog .card .card-title-text-2 {
   font-size: 22px;
-  padding: 25px 0 5px 25px;
+  padding: 25px 0 5px 0px;
+  font-family: raleway;
+  font-weight: 600;
 }
 
 .blog .card .footer-2 .blog-btn-2 {
@@ -483,9 +542,97 @@ p.address-text {
   padding: 0 30px;
   color: #333;
   line-height: normal;
-} */
+}
+
+/* blog part 2 */
+.blog .card.blog-card-3 {
+  flex-direction: row;
+  flex-grow: 1;
+  height: 230px;
+  width: 100%;
+  border-radius: 60px;
+  box-shadow: 1px 2px 8px 4px rgba(237, 237, 237, 1);
+  border: none;
+  margin-top: 20px;
+}
+
+.blog .blog-card-3 .blog-image-3 {
+  width: 100%;
+  border-top-left-radius: 60px;
+  height: 230px;
+  border-bottom-left-radius: 60px;
+}
+
+.blog .card .footer-3 {
+  background: #fff;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-top: none;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.blog .card .footer-3 p {
+  color: #333;
+  padding-top: 15px;
+  padding-right: 10px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.blog .card .footer-3.blog-btn-3 {
+  font-size: 20px;
+}
+
+.blog .card .blog-body-3 {
+  max-height: 328px;
+  overflow: hidden;
+}
+
+.blog .card .card-title-text-3 {
+  font-size: 22px;
+  padding: 25px 0 5px 0px;
+  font-family: raleway;
+  font-weight: 600;
+}
+
+.blog .card .footer-3 .blog-btn-3 {
+  font-size: 65px;
+  color: #00aeef;
+}
+
+.blog .card .blog-text-3 {
+  padding: 0 30px;
+  color: #333;
+  line-height: normal;
+}
 
 /* web development page */
+
+.web-solution .web-solution-heading {
+  text-align: end;
+}
+
+.web-solution .web-solution-heading p {
+  text-align: end;
+  font-size: 100px;
+  color: rgba(0, 174, 239, 0.6);
+  font-weight: 900;
+}
+
+.web-solution .web-solution-heading .web-solution-heading-text-1 {
+  text-align: start;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 900;
+}
+.web-solution .web-solution-heading-text p {
+  text-align: start;
+  font-size: 45px;
+  color: rgba(0, 174, 239, 0.3);
+  font-weight: 900;
+}
 
 #web-solution-2 {
   box-shadow: 0 5px 15px -5px rgba(237, 237, 237, 1);
@@ -505,7 +652,7 @@ p.address-text {
 .web-header .web-header-text {
   color: black;
   font-weight: 900;
-  font-size: 100px;
+  font-size: 99px;
 }
 
 .web-header .web-btn .btn {
@@ -590,7 +737,7 @@ p.address-text {
 }
 .web-item-boxes:hover {
   background: #fff;
-  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
+  transform: scale(0.9, 0.9);
 }
 
 .web-item-boxes h4 {
@@ -673,7 +820,7 @@ p.address-text {
   line-height: normal;
 }
 
-/* mobile blog part 2 */
+/* web blog part 2 */
 .web-blog .card.web-blog-card-2 {
   flex-direction: row;
   flex-grow: 1;
@@ -738,6 +885,30 @@ p.address-text {
 }
 
 /* mobile development */
+
+.mobile-solution .mobile-solution-heading {
+  text-align: end;
+}
+
+.mobile-solution .mobile-solution-heading p {
+  text-align: end;
+  font-size: 100px;
+  color: rgba(0, 174, 239, 0.6);
+  font-weight: 900;
+}
+
+.mobile-solution .mobile-solution-heading .mobile-solution-heading-text-1 {
+  text-align: start;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 900;
+}
+.mobile-solution .mobile-solution-heading-text p {
+  text-align: start;
+  font-size: 45px;
+  color: rgba(0, 174, 239, 0.3);
+  font-weight: 900;
+}
 
 #mobile-solution-2 {
   box-shadow: 0 5px 15px -5px rgba(237, 237, 237, 1);
@@ -827,7 +998,7 @@ p.address-text {
 
 .mobile-item-boxes:hover {
   background: #fff;
-  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
+  transform: scale(0.9, 0.9);
 }
 
 .mobile-item-boxes h4 {
@@ -986,6 +1157,30 @@ p.address-text {
 }
 /* cloude deve;opment */
 
+.cloud-solution .cloud-solution-heading {
+  text-align: end;
+}
+
+.cloud-solution .cloud-solution-heading p {
+  text-align: end;
+  font-size: 100px;
+  color: rgba(0, 174, 239, 0.6);
+  font-weight: 900;
+}
+
+.cloud-solution .cloud-solution-heading .cloud-solution-heading-text-1 {
+  text-align: start;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 900;
+}
+.cloud-solution .cloud-solution-heading-text p {
+  text-align: start;
+  font-size: 45px;
+  color: rgba(0, 174, 239, 0.3);
+  font-weight: 900;
+}
+
 .cloud-header {
   background-image: url("../img/features/Cloud Main.png");
   padding: 330px 0px 300px 0px;
@@ -1019,6 +1214,7 @@ p.address-text {
   font-weight: 500;
   font-size: 35px;
   text-align: center;
+  line-height: 1;
 }
 
 .cloud-solution .cloud-solution-header .cloud-solution-text {
@@ -1086,7 +1282,7 @@ p.address-text {
 
 .cloud-item-boxes:hover {
   background: #fff;
-  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
+  transform: scale(0.9, 0.9);
 }
 
 .cloud-item-boxes h4 {
@@ -1284,4 +1480,35 @@ p.address-text {
   .navbar .navbar-collapse .navbar-nav .nav-item a.work {
     padding-right: 3rem !important;
   }
+}
+
+@media screen and (max-width: 700px) {
+  .sidenav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+}
+
+.back-to-top i {
+  display: block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #00aeef;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
