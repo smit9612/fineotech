@@ -173,25 +173,25 @@
             <div class="row text-center">
                 <div class="col-md-3 col-sm-6">
                     <div class="tech-img">
-                        <img class="img-fluid" src="img/features/internet_of_things.png" alt="">
+                        <img class="img-fluid tech-images" src="img/features/internet_of_things.png" alt="">
                     </div>
                     <p class="tech-part-2-text">Internet<br>Of Things</p>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="tech-img">
-                        <img class="img-fluid" src="img/features/machine_learning.png" alt="">
+                        <img class="img-fluid tech-images" src="img/features/machine_learning.png" alt="">
                     </div>
                     <p class="tech-part-2-text">Machine<br>Learning</p>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="tech-img">
-                        <img class="img-fluid" src="img/features/big_data.png" alt="">
+                        <img class="img-fluid tech-images" src="img/features/big_data.png" alt="">
                     </div>
                     <p class="tech-part-2-text">Big Data</p>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="tech-img">
-                        <img class="img-fluid" src="img/features/business_intelligence.png" alt="">
+                        <img class="img-fluid tech-images" src="img/features/business_intelligence.png" alt="">
                     </div>
                     <p class="tech-part-2-text">Business<br>Intelligence</p>
                 </div>
@@ -213,6 +213,157 @@
     </div>
 </section>
 
+<section id="blog" class="blog pt-5 pb-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-12">
+                <div class="blog-header">
+                    <p class="blog-title"><span>Our Blog
+                        </span></p>
+                    <p class="blogt text-center">Learn about the latest in the technology industry, FinTech<br>and BFSI
+                        (Full Form) from the experts and curators at Fineotech.<br>Also, see updates about our new
+                        venture,
+                        products and projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-md-6">
+                <div class="card blog-card">
+                    <img class="card-img-top blog-image" src="img/hero-area.jpg" alt="Card image">
+                    <div class="card-body blog-body">
+                        <!-- <div class="card-header"> -->
+                        <p class="card-title card-title-text">10 Ways To Build A website</p>
+                        <!-- </div> -->
+                        <!-- <div class="card-contents"> -->
+                        <p class="card-text blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?</p>
+                        <!-- </div> -->
+                    </div>
+                    <div class="card-footer footer">
+                        <p>Read Full Blog</p><i class="blog-btn fa fa-chevron-circle-right"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- blog 2 -->
+            <div class="col-md-6">
+                <div class="blog-part-1">
+                    <div class="col-md-4 pl-0">
+                        <div class="card blog-card-2">
+                            <img class="card-img-top blog-imag-2" src="img/features/Mobile Main.png" alt="Card image">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body blog-body-2">
+                            <p class="card-title card-title-tex-2">Things To Keep In Mind While Developing</p>
+                        </div>
+                        <div class="footer-2-btn">
+                            <div class="card-footer footer-2">
+                                <p>Read Blog</p><i class="blog-btn fa fa-chevron-circle-right blog-part-1-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- blog 3 -->
+                <div class="blog-part-2">
+                    <div class="col-md-4 pl-0">
+                        <div class="card blog-card-3">
+                            <img class="card-img-top blog-imag-3" src="img/features/cloud.png" alt="Card image">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body blog-body-3">
+                            <p class="card-title card-title-tex-3">Things To Keep In Mind While Developing</p>
+                        </div>
+                        <div class="footer-3-btn">
+                            <div class="card-footer footer-3">
+                                <p>Read Blog</p><i class="blog-btn fa fa-chevron-circle-right blog-part-2-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact-form">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <section id="contact" class="contact-section">
+            <div class="contact-form">
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-9">
+                            <div class="contact-block">
+                                <div class="section-header">
+                                    <h2 class="section-title">Contact <span>Us</span></h2>
+                                    <hr class="lines">
+                                </div>
+                                <form id="contactForm">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="name" name="name"
+                                                    placeholder="Your Name" required
+                                                    data-error="Please enter your name">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Your Email" id="email"
+                                                    class="form-control" name="name" required
+                                                    data-error="Please enter your email">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Subject" id="msg_subject"
+                                                    class="form-control" required
+                                                    data-error="Please enter your subject">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="message" placeholder="Your Message"
+                                                    rows="11" data-error="Write your message" required></textarea>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                            <div class="submit-button text-center">
+                                                <button class="btn btn-common" id="submit" type="submit">Send
+                                                    Message</button>
+                                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
 <!-- Features Section Start -->
 <!-- <section id="features" class="section" data-stellar-background-ratio="0.2">
       <div class="container">

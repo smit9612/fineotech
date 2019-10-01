@@ -1,6 +1,6 @@
 <footer>
     <div class="container">
-        <div class="row">
+        <div class="row pb-5">
             <div class="col-md-3">
                 <div class="text-white text-left">
                     <a class="navbar-brand footer-logo" href="index.html"><span class="lnr lnr-diamond"></span>
@@ -31,6 +31,14 @@
             <div class="col-md-3">
                 <div class="text-white text-left">
                     <p class="footer-header">News Letter</p>
+                    <!-- <div class="input-group">
+                        <input type="search" class="form-control email-control">
+                        <span class="input-group-btn">
+                            <button class="btn subscribe-btn" type="button"><span class="glyphicon glyphicon-search"
+                                    aria-hidden="true">
+                                </span>Subscribe</button>
+                        </span>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -201,6 +209,19 @@ function initialize() {
 }
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "700px";
+    document.getElementById("main").style.marginRight = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginRight = "0";
+}
+</script>
+
+
 
 </body>
 

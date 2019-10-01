@@ -4,10 +4,6 @@
         <div class="row">
             <div class="col-md-5 col-sm-12">
                 <h1 class="web-header-text pb-5">Web App<br>Development</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-5 col-sm-12">
                 <div class="web-btn">
                     <button type="button" class="btn btn-round-lg btn-lg">TALK TO THE CONSULTANTS</button>
                 </div>
@@ -37,8 +33,8 @@
             </div>
         </div>
         <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-xs-12 web-solution-img">
+            <div class="row align-items-center pt-4">
+                <div class="col-xs-12 flex-nowrap web-solution-img">
                     <div class="text-center">
                         <img class="img-fluid" src="img/features/web2_ruby.png" alt="">
                         <p>Ruby on Rails </p>
@@ -72,62 +68,62 @@
             </div>
         </div>
 </section>
-<hr class="web-solution-hr">
+<hr class="hr">
 
 <section id="web-solution-2" class="web-solution pt-5 pb-5">
     <div class="container">
-        <div class="row">
+        <div class="row pb-5">
             <div class="col-md-4 web-solution-section">
-                <div class="col-md-6 float-left">
-                    <img class="img-fluid" src="img/features/web3_custom_payment.png" alt="">
+                <div class="col-md-4 float-left">
+                    <img class="img-fluid web-solution-2-img" src="img/features/web3_custom_payment.png" alt="">
                 </div>
-                <div class="col-md-6 float-right">
+                <div class="col-md-8 float-right">
                     <p class="web-solution-font">Custom Payment<br>Processing Solution</p>
                 </div>
             </div>
             <div class="col-md-4 web-solution-section">
-                <div class="col-md-6 float-left">
-                    <img class="img-fluid" src="img/features/web3_multiple_currency.png" alt="">
+                <div class="col-md-4 float-left">
+                    <img class="img-fluid web-solution-2-img" src="img/features/web3_multiple_currency.png" alt="">
                 </div>
-                <div class="col-md-6 float-right">
+                <div class="col-md-8 float-right">
                     <p class="web-solution-font">Multiple-Currency<br>Processing Solutions</p>
                 </div>
             </div>
             <div class="col-md-4 web-solution-section">
-                <div class="col-md-6 float-left">
-                    <img class="img-fluid" src="img/features/web3_solutions.png" alt="">
+                <div class="col-md-4 float-left">
+                    <img class="img-fluid web-solution-2-img" src="img/features/web3_solutions.png" alt="">
                 </div>
-                <div class="col-md-6 float-right">
+                <div class="col-md-8 float-right">
                     <p class="web-solution-font">Solutions in Smart<br>Homes and Spaces</p>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row pb-5">
             <div class="col-md-4 web-solution-section">
-                <div class="col-md-6 float-left">
-                    <img class="img-fluid" src="img/features/web3_predictive.png" alt="">
+                <div class="col-md-4 float-left">
+                    <img class="img-fluid web-solution-2-img" src="img/features/web3_predictive.png" alt="">
                 </div>
-                <div class="col-md-6 float-right">
+                <div class="col-md-8 float-right">
                     <p class="web-solution-font">Predictive Analytics
                         <br>for Digital Payments</p>
                 </div>
             </div>
             <div class="col-md-4 web-solution-section">
-                <div class="col-md-6 float-left">
-                    <img class="img-fluid" src="img/features/web3_web_application.png" alt="">
+                <div class="col-md-4 float-left">
+                    <img class="img-fluid web-solution-2-img" src="img/features/web3_web_application.png" alt="">
                 </div>
-                <div class="col-md-6 float-right">
+                <div class="col-md-8 float-right">
                     <p class="web-solution-font">Web Application
                         <br>for POS Systems</p>
                 </div>
             </div>
             <div class="col-md-4 web-solution-section">
-                <div class="col-md-6 float-left">
-                    <img class="img-fluid" src="img/features/web3_integration.png" alt="">
+                <div class="col-md-4 float-left">
+                    <img class="img-fluid web-solution-2-img" src="img/features/web3_integration.png" alt="">
                 </div>
-                <div class="col-md-6 float-right">
+                <div class="col-md-8 float-right">
                     <p class="web-solution-font">Integration for
-                        Digital Payments<br>Digital Payments</p>
+                        <br>Digital Payments</p>
                 </div>
             </div>
         </div>
@@ -143,7 +139,7 @@
         </div>
     </div>
 </section>
-<hr class="web-solution-hr">
+<hr class="hr">
 
 <section id="web-services" class="web-services pt-5 pb-5">
     <div class="container">
@@ -165,7 +161,7 @@
             <div class="col-md-4 col-sm-4">
                 <div class="web-item-boxes">
                     <div class="web-services-img py-4">
-                        <img class="img-fluid" src="img/features/web5_solutions.png" alt="">
+                        <img class="img-fluid web-services-img-fluid" src="img/features/web5_solutions.png" alt="">
                     </div>
                     <h4>Solution Architecture<br>
                         and Prototype</h4>
@@ -174,7 +170,7 @@
             <div class="col-md-4 col-sm-4">
                 <div class="web-item-boxes">
                     <div class="web-services-img py-4">
-                        <img class="img-fluid" src="img/features/web5_cloud.png" alt="">
+                        <img class="img-fluid web-services-img-fluid" src="img/features/web5_cloud.png" alt="">
                     </div>
                     <h4>Cloud Migration<br>
                         Strategy</h4>
@@ -183,10 +179,105 @@
             <div class="col-md-4 col-sm-4">
                 <div class="web-item-boxes">
                     <div class="web-services-img py-4">
-                        <img class="img-fluid" src="img/features/web5_support.png" alt="">
+                        <img class="img-fluid web-services-img-fluid" src="img/features/web5_support.png" alt="">
                     </div>
                     <h4>Support and<br>
                         Maintenance</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="hr">
+
+<section id="web-blog" class="web-blog pt-5 pb-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-12">
+                <div class="web-blog-header">
+                    <p class="web-blog-title"><span>Our Blog
+                        </span></p>
+                    <p class="web-blog-text text-center">As payments become streamlined with tap-to-pay, check out our
+                        comprehensive guide on
+                        Web Payment applications and understand the driving force behind secure, swift and scalable web
+                        apps.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-5">
+            <div class="col-md-6">
+                <div class="card web-blog-card">
+                    <img class="card-img-top web-blog-image" src="img/hero-area.jpg" alt="Card image">
+                    <div class="card-body web-blog-body">
+                        <!-- <div class="card-header"> -->
+                        <p class="card-title web-card-title-text">Web App Development</p>
+                        <!-- </div> -->
+                        <!-- <div class="card-contents"> -->
+                        <p class="card-text web-blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?</p>
+                        <!-- </div> -->
+                    </div>
+                    <div class="card-footer web-footer">
+                        <p>Read Full Blog</p><i class="web-blog-btn fa fa-chevron-circle-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card web-blog-card-2">
+                    <div class="blog-part-2-img">
+                        <img class="card-img-top web-blog-image-2" src="img/hero-area.jpg" alt="Card image">
+                    </div>
+                    <div class="blog-part-2-content">
+                        <div class="card-body web-blog-body-2">
+                            <!-- <div class="card-header"> -->
+                            <p class="card-title web-card-title-text-2">Basic Web App Tips
+                                for Entrepreneurs</p>
+                            <!-- </div> -->
+                            <!-- <div class="card-contents"> -->
+                            <p class="card-text web-blog-text-2">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Quos sed
+                                consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                                aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                                voluptates?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                                consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                                aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                                voluptates?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                                consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                                aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                                voluptates?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                                consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                                aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                                voluptates?</p>
+                            <!-- </div> -->
+                        </div>
+                        <div class="card-footer web-footer-2">
+                            <p>Read Full Blog</p><i class="web-blog-btn-2 fa fa-chevron-circle-right"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

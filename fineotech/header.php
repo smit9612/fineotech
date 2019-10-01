@@ -8,7 +8,7 @@
     <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Grayrids">
-    <title>Crystal - Bootstrap 4 Template</title>
+    <title>Fineotech Inc.</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -53,10 +53,10 @@
                             <a class="nav-link page-scroll nav-link-text" href="#services">SERVICES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll nav-link-text work pr-5" href="#team">WORK</a>
+                            <a class="nav-link page-scroll nav-link-text work" href="#team">WORK</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll nav-link-text contact" href="#contact">CONTACT</a>
+                            <a class="nav-link page-scroll nav-link-text contact" onClick="openNav()">CONTACT</a>
                         </li>
                     </ul>
                 </div>
