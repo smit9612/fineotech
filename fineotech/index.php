@@ -50,7 +50,7 @@
 <section id="about" class="about">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-8">
                 <div>
                     <img class="img-fluid about-img" src="img/features/whoarewe.png" alt="">
                 </div>
@@ -90,9 +90,8 @@
         <div class="section-header">
             <p class="section-title"><span>Our Services
                 </span></p>
-            <p class="section-subtitle">Our services are a
-                Here are the services that we offer for businesses that are looking for payment and FinTech solutions.
-                Go ahead and explore what we can do for you.</p>
+            <p class="section-subtitle">Here are the services that we offer for businesses that are looking for payment
+                and FinTech solutions. Go ahead and explore what we can do for you.</p>
         </div>
 
         <div class="row">
@@ -253,7 +252,8 @@
                         <!-- </div> -->
                     </div>
                     <div class="card-footer footer">
-                        <p>Read Full Blog</p><i class="blog-btn fa fa-chevron-circle-right"></i>
+                        <p>Read Full Blog</p><img class="read-btn" src="img/features/Read Blog.png"
+                            alt="Card image"></i>
                     </div>
                 </div>
             </div>
@@ -273,7 +273,7 @@
                                 <!-- </div> -->
                             </div>
                             <div class="card-footer footer-2">
-                                <p>Read Blog</p><i class="blog-btn-2 fa fa-chevron-circle-right"></i>
+                                <p>Read Blog</p><img class="read-btn" src="img/features/Read Blog.png" alt="Card image">
                             </div>
                         </div>
                     </div>
@@ -293,7 +293,7 @@
                                 <!-- </div> -->
                             </div>
                             <div class="card-footer footer-3">
-                                <p>Read Blog</p><i class="blog-btn-3 fa fa-chevron-circle-right"></i>
+                                <p>Read Blog</p><img class="read-btn" src="img/features/Read Blog.png" alt="Card image">
                             </div>
                         </div>
                     </div>
@@ -863,7 +863,7 @@
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required
+                      <input type="text" placeholder="Subject" id="subject" class="form-control" required
                         data-error="Please enter your subject">
                       <div class="help-block with-errors"></div>
                     </div>

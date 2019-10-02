@@ -3,7 +3,7 @@
         <div class="row pb-5">
             <div class="col-md-3">
                 <div class="text-white text-left">
-                    <a class="navbar-brand footer-logo" href="index.html"><img src="img/features/logo.png" alt="" /></a>
+                    <a class="navbar-brand footer-logo" href="/"><img src="img/features/logo.png" alt="" /></a>
                     <p class="address-text">437M, Belmount Road <br> Helvitica Springs,120029</p>
                 </div>
             </div>
@@ -11,9 +11,9 @@
                 <div class="text-white text-left">
                     <p class="footer-header">Quick Links</p>
                     <ul class="footer-text">
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="/#about">About Us</a></li>
+                        <li><a href="/#services">Services</a></li>
+                        <li><a href="/#blog">Blog</a></li>
                         <li><a onClick="openNav()">Contact</a></li>
                     </ul>
                 </div>
@@ -210,7 +210,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 <script>
 function openNav() {
-    document.getElementById("mySidenav").style.width = "700px";
+    document.getElementById("mySidenav").style.width = "580px";
     document.getElementById("main").style.marginRight = "250px";
 }
 

@@ -38,7 +38,7 @@
     <header class="header-text-color">
         <nav class="navbar navbar-expand-md fixed-top scrolling-navbar mainmenu-area">
             <div class="container">
-                <a class="navbar-brand" href="index.php"> <img src="img/features/logo.png" alt="" /></a>
+                <a class="navbar-brand" href="/"> <img src="img/features/logo.png" alt="" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="lnr lnr-menu"></i>
@@ -47,13 +47,13 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto w-100 justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link page-scroll nav-link-text" href="#about">ABOUT</a>
+                            <a class="nav-link page-scroll nav-link-text" href="/#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll nav-link-text" href="#services">SERVICES</a>
+                            <a class="nav-link page-scroll nav-link-text" href="/#services">SERVICES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll nav-link-text work" href="#team">WORK</a>
+                            <a class="nav-link page-scroll nav-link-text work" href="/#team">WORK</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link page-scroll nav-link-text contact" onClick="openNav()">CHAT WITH US</a>
@@ -67,60 +67,77 @@
 
     <section id="contact-form">
         <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <section id="contact" class="contact-section">
                 <div class="contact-form">
                     <div class="container">
                         <div class="row justify-content-md-center">
-                            <div class="col-md-9">
+                            <div class="col-md-8">
                                 <div class="contact-block">
-                                    <div class="section-header">
-                                        <h2 class="section-title">Contact <span>Us</span></h2>
-                                        <hr class="lines">
-                                    </div>
-                                    <form id="contactForm" action="./send_form_email.php">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" id="name" name="name"
-                                                        placeholder="Your Name" required
-                                                        data-error="Please enter your name">
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <input type="text" placeholder="Your Email" id="email"
-                                                        class="form-control" name="email" required
-                                                        data-error="Please enter your email">
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="text" placeholder="Subject" id="msg_subject"
-                                                        class="form-control" name="msg_subject" required
-                                                        data-error="Please enter your subject">
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <textarea class="form-control" id="message"
-                                                        placeholder="Your Message" name="message" rows="11"
-                                                        data-error="Write your message" required></textarea>
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
-                                                <div class="submit-button text-center">
-                                                    <button class="btn btn-common" id="submit" type="submit">Send
-                                                        Message</button>
-                                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                                    <div class="clearfix"></div>
-                                                </div>
+                                    <p class="contact-email">info@fineotech.com</p>
+                                    <p class="contact-address">437 M, Belmount Road
+                                        Helvitica Springs, 120029</p>
+                                </div>
+                                <hr class="contact-hr">
+                            </div>
+                            <div class="col-md-4">
+                                <a href="javascript:void(0)" onclick="closeNav()"><img src="img/features/closebtn.png"
+                                        alt="Card image"></a>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="contact-text-block">
+                                <p class="contact-text-1">Let's Chat</p>
+                                <p class="contact-text-2">Tell us your ideas</p>
+                            </div>
+                        </div>
+
+                        <div class="row pt-4 input-block-center">
+                            <div class="contact-form-block">
+                                <p class="contact-form-text">Get in touch?</p>
+                            </div>
+                            <div class="contact-form">
+                                <form id="contactForm" method="post" class="contact-form-wrapper"
+                                    enctype="multipart/form-data">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control custome-input" id="name"
+                                                    name="name" placeholder="Your Name" required
+                                                    data-error="Please enter your name">
+                                                <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                    </form>
-                                </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Your Email" id="email"
+                                                    class="form-control custome-input" name="email" required
+                                                    data-error="Please enter your email">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Subject" id="subject"
+                                                    class="form-control custome-input" name="subject" required
+                                                    data-error="Please enter your subject">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control custome-input" id="message"
+                                                    placeholder="Your Message" name="message" rows="11"
+                                                    data-error="Write your message" required></textarea>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                            <button id="submit" type="submit">
+                                                <img src="img/features/sendbtn.png" alt="Card image">
+                                            </button>
+                                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>

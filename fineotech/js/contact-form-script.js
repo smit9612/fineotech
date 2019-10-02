@@ -16,7 +16,7 @@ function submitForm() {
   // Initiate Variables With Form Content
   var name = $("#name").val();
   var email = $("#email").val();
-  var msg_subject = $("#msg_subject").val();
+  var subject = $("#subject").val();
   var message = $("#message").val();
 
   $.ajax({
@@ -27,8 +27,8 @@ function submitForm() {
       name +
       "&email=" +
       email +
-      "&msg_subject=" +
-      msg_subject +
+      "&subject=" +
+      subject +
       "&message=" +
       message,
     success: function(text) {
@@ -36,7 +36,10 @@ function submitForm() {
         formSuccess();
       } else {
         formError();
-        submitMSG(false, text);
+        submitMSG(
+          false,
+          "There was an error trying to send your message. Please try again later."
+        );
       }
     }
   });

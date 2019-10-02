@@ -253,7 +253,7 @@
                         <!-- </div> -->
                     </div>
                     <div class="card-footer mobile-footer">
-                        <p>Read Full Blog</p><i class="mobile-blog-btn fa fa-chevron-circle-right"></i>
+                        <p>Read Full Blog</p><img class="read-btn" src="img/features/Read Blog.png" alt="Card image">
                     </div>
                 </div>
             </div>
@@ -290,7 +290,8 @@
                             <!-- </div> -->
                         </div>
                         <div class="card-footer mobile-footer-2">
-                            <p>Read Full Blog</p><i class="mobile-blog-btn-2 fa fa-chevron-circle-right"></i>
+                            <p>Read Full Blog</p><img class="read-btn" src="img/features/Read Blog.png"
+                                alt="Card image">
                         </div>
                     </div>
                 </div>

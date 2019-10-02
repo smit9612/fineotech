@@ -219,7 +219,7 @@
                         <!-- </div> -->
                     </div>
                     <div class="card-footer cloud-footer">
-                        <p>Read Full Blog</p><i class="cloud-blog-btn fa fa-chevron-circle-right"></i>
+                        <p>Read Full Blog</p><img class="read-btn" src="img/features/Read Blog.png" alt="Card image">
                     </div>
                 </div>
             </div>
@@ -257,7 +257,8 @@
                             <!-- </div> -->
                         </div>
                         <div class="card-footer cloud-footer-2">
-                            <p>Read Full Blog</p><i class="cloud-blog-btn-2 fa fa-chevron-circle-right"></i>
+                            <p>Read Full Blog</p><img class="read-btn" src="img/features/Read Blog.png"
+                                alt="Card image">
                         </div>
                     </div>
                 </div>
