@@ -1,13 +1,13 @@
 <footer>
     <div class="container">
-        <div class="row pb-5">
-            <div class="col-md-3">
+        <div class="row pb-5 custome-footer-row">
+            <div class="col-md-3 custome-footer-links">
                 <div class="text-white text-left">
                     <a class="navbar-brand footer-logo" href="/"><img src="img/features/logo.png" alt="" /></a>
                     <p class="address-text">437M, Belmount Road <br> Helvitica Springs,120029</p>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 custome-footer-links">
                 <div class="text-white text-left">
                     <p class="footer-header">Quick Links</p>
                     <ul class="footer-text">
@@ -18,7 +18,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 custome-footer-links">
                 <div class="text-white text-left">
                     <p class="footer-header">Support Links</p>
                     <ul class="footer-text">
@@ -27,7 +27,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 custome-footer-links">
                 <div class="text-white text-left">
                     <p class="footer-header">News Letter</p>
                     <div class="input-group">

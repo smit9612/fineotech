@@ -50,12 +50,12 @@
 <section id="about" class="about">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-6 col-sm-8">
+            <div class="col-md-5 col-sm-8">
                 <div>
                     <img class="img-fluid about-img" src="img/features/whoarewe.png" alt="">
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-7 col-sm-12">
                 <div>
                     <p class="about-text">We define technology with innovation, quality and versatility. Our digital
                         solutions
@@ -87,7 +87,7 @@
 <!-- Services Section Start -->
 <section id="services" class="section">
     <div class="container">
-        <div class="section-header">
+        <div class="section-header col-md-8">
             <p class="section-title"><span>Our Services
                 </span></p>
             <p class="section-subtitle">Here are the services that we offer for businesses that are looking for payment
@@ -168,25 +168,25 @@
         </div>
         <div class="container pt-5">
             <div class="row text-center">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 custome-tech">
                     <div class="tech-img">
                         <img class="img-fluid tech-images" src="img/features/internet_of_things.png" alt="">
                     </div>
                     <p class="tech-part-2-text">Internet<br>Of Things</p>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 custome-tech">
                     <div class="tech-img">
                         <img class="img-fluid tech-images" src="img/features/machine_learning.png" alt="">
                     </div>
                     <p class="tech-part-2-text">Machine<br>Learning</p>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 custome-tech">
                     <div class="tech-img">
                         <img class="img-fluid tech-images" src="img/features/big_data.png" alt="">
                     </div>
                     <p class="tech-part-2-text">Big Data</p>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 custome-tech">
                     <div class="tech-img">
                         <img class="img-fluid tech-images" src="img/features/business_intelligence.png" alt="">
                     </div>
@@ -214,7 +214,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-12">
-                <div class="blog-header">
+                <div class="blog-header col-md-8">
                     <p class="blog-title blog-heading-text-1"><span>Our Blog
                         </span></p>
                     <p class="blogt blog-text-1 text-center">Learn about the latest in the technology industry, FinTech

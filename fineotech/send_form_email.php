@@ -6,7 +6,8 @@ if (file_exists('lib/class.smtp.php')) {
     require_once 'lib/class.smtp.php';
 }
 
-$to = "info.@fineotech.com";
+$to = "tirthen.shah@pixometryinfosoft.com";
+// $to = "narendra.butani@pixometryinfosoft.com";
 $replay = trim($_POST['email']);
 $name = trim($_POST['name']);
 $subject = trim($_POST['subject']);
