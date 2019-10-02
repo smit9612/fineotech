@@ -91,14 +91,12 @@
             <p class="section-title"><span>Our Services
                 </span></p>
             <p class="section-subtitle">Our services are a
-                blend
-                of rigidity and flexibility.<br>
-                Fineotech Inc. provides cutting - edge custom software development services to all our valued
-                clients.<br></p>
+                Here are the services that we offer for businesses that are looking for payment and FinTech solutions.
+                Go ahead and explore what we can do for you.</p>
         </div>
 
         <div class="row">
-            <div class="col-md-4 col-sm-12  d-flex">
+            <div class="col-md-4 col-sm-12  d-flex custome-flex">
                 <a href="webdevlopment.php">
                     <div class="item-boxes" data-wow-delay="1s">
                         <div class="py-4">
@@ -112,7 +110,7 @@
                 </a>
             </div>
         </div>
-        <div class="col-md-4 col-sm-12 d-flex">
+        <div class="col-md-4 col-sm-12 d-flex custome-flex">
             <div class="item-boxes" data-wow-delay="0.2s"><a href="mobiledevelopment.php">
                     <div class="services-img py-4">
                         <img class="img-fluid" src="img/features/mobile.png" alt="">
@@ -122,7 +120,7 @@
                         mobile applications that are high performing, secure, digitally transformative.</p>
                 </a></div>
         </div>
-        <div class="col-md-4 col-sm-12 d-flex">
+        <div class="col-md-4 col-sm-12 d-flex custome-flex">
             <div class="item-boxes" data-wow-delay="0.4s"><a href="clouddevelopment.php">
                     <div class="services-img py-4">
                         <img class="img-fluid" src="img/features/cloud.png" alt="">
@@ -271,8 +269,7 @@
                         <div class="blog-part-2-content">
                             <div class="card-body blog-body-2">
                                 <!-- <div class="card-header"> -->
-                                <p class="card-title card-title-text-2">Basic Web App Tips
-                                    for Entrepreneurs</p>
+                                <p class="card-title card-title-text-2">Things To Keep In Mind While Developing</p>
                                 <!-- </div> -->
                             </div>
                             <div class="card-footer footer-2">
@@ -283,17 +280,16 @@
                 </div>
 
                 <div class="card blog-card-3">
-                    <div class="col-md-4 col-sm-4 pl-0">
+                    <div class="col-md-4 col-sm-4 col-xs-4 pl-0">
                         <div class="blog-part-3-img">
                             <img class="card-img-top blog-image-3" src="img/hero-area.jpg" alt="Card image">
                         </div>
                     </div>
-                    <div class="col-md-8 col-sm-8">
+                    <div class="col-md-8 col-sm-8 col-xs-8">
                         <div class="blog-part-3-content">
                             <div class="card-body blog-body-3">
                                 <!-- <div class="card-header"> -->
-                                <p class="card-title card-title-text-3">Basic Web App Tips
-                                    for Entrepreneurs</p>
+                                <p class="card-title card-title-text-3">What Is Cloud Integration?</p>
                                 <!-- </div> -->
                             </div>
                             <div class="card-footer footer-3">
@@ -307,68 +303,7 @@
     </div>
 </section>
 
-<section id="contact-form">
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <section id="contact" class="contact-section">
-            <div class="contact-form">
-                <div class="container">
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-9">
-                            <div class="contact-block">
-                                <div class="section-header">
-                                    <h2 class="section-title">Contact <span>Us</span></h2>
-                                    <hr class="lines">
-                                </div>
-                                <form id="contactForm">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="name" name="name"
-                                                    placeholder="Your Name" required
-                                                    data-error="Please enter your name">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="text" placeholder="Your Email" id="email"
-                                                    class="form-control" name="name" required
-                                                    data-error="Please enter your email">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <input type="text" placeholder="Subject" id="msg_subject"
-                                                    class="form-control" required
-                                                    data-error="Please enter your subject">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <textarea class="form-control" id="message" placeholder="Your Message"
-                                                    rows="11" data-error="Write your message" required></textarea>
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                            <div class="submit-button text-center">
-                                                <button class="btn btn-common" id="submit" type="submit">Send
-                                                    Message</button>
-                                                <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-</section>
+
 <!-- Features Section Start -->
 <!-- <section id="features" class="section" data-stellar-background-ratio="0.2">
       <div class="container">

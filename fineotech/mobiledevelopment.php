@@ -230,7 +230,7 @@
                     <img class="card-img-top mobile-blog-image" src="img/hero-area.jpg" alt="Card image">
                     <div class="card-body mobile-blog-body">
                         <!-- <div class="card-header"> -->
-                        <p class="card-title mobile-card-title-text">10 Ways To Build A website</p>
+                        <p class="card-title mobile-card-title-text">Mobile App Development</p>
                         <!-- </div> -->
                         <!-- <div class="card-contents"> -->
                         <p class="card-text mobile-blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -266,7 +266,7 @@
                     <div class="blog-part-2-content">
                         <div class="card-body mobile-blog-body-2">
                             <!-- <div class="card-header"> -->
-                            <p class="card-title mobile-card-title-text-2">10 Ways To Build A website</p>
+                            <p class="card-title mobile-card-title-text-2">Basic Mobile App Tips for Entrepreneurs</p>
                             <!-- </div> -->
                             <!-- <div class="card-contents"> -->
                             <p class="card-text mobile-blog-text-2">Lorem ipsum dolor sit amet consectetur adipisicing

@@ -56,10 +56,75 @@
                             <a class="nav-link page-scroll nav-link-text work" href="#team">WORK</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll nav-link-text contact" onClick="openNav()">CONTACT</a>
+                            <a class="nav-link page-scroll nav-link-text contact" onClick="openNav()">CHAT WITH US</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+
+    <section id="contact-form">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <section id="contact" class="contact-section">
+                <div class="contact-form">
+                    <div class="container">
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-9">
+                                <div class="contact-block">
+                                    <div class="section-header">
+                                        <h2 class="section-title">Contact <span>Us</span></h2>
+                                        <hr class="lines">
+                                    </div>
+                                    <form id="contactForm" action="./send_form_email.php">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="name" name="name"
+                                                        placeholder="Your Name" required
+                                                        data-error="Please enter your name">
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" placeholder="Your Email" id="email"
+                                                        class="form-control" name="email" required
+                                                        data-error="Please enter your email">
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" placeholder="Subject" id="msg_subject"
+                                                        class="form-control" name="msg_subject" required
+                                                        data-error="Please enter your subject">
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea class="form-control" id="message"
+                                                        placeholder="Your Message" name="message" rows="11"
+                                                        data-error="Write your message" required></textarea>
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                                <div class="submit-button text-center">
+                                                    <button class="btn btn-common" id="submit" type="submit">Send
+                                                        Message</button>
+                                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>

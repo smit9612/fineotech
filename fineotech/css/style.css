@@ -25,6 +25,11 @@ nav .nav-link-text {
   font-weight: bold;
 }
 
+a:not([href]):not([tabindex]):hover {
+  color: #fff;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .navbar .nav-item .contact {
@@ -261,6 +266,10 @@ p.address-text {
 
 .section .item-boxes img.services-img {
   width: 120px;
+}
+
+.section .custome-flex {
+  padding: 0px 45px;
 }
 
 /* blog section  */
@@ -571,6 +580,9 @@ p.address-text {
   justify-content: flex-end;
   display: flex;
   align-items: center;
+  position: relative;
+  padding: 0;
+  top: 0px;
 }
 
 .blog .card .footer-3 p {
@@ -651,8 +663,9 @@ p.address-text {
 
 .web-header .web-header-text {
   color: black;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 99px;
+  font-family: sans-serif;
 }
 
 .web-header .web-btn .btn {
@@ -926,8 +939,9 @@ p.address-text {
 
 .mobile-header .mobile-header-text {
   color: black;
-  font-weight: 900;
-  font-size: 100px;
+  font-weight: 700;
+  font-size: 99px;
+  font-family: sans-serif;
 }
 
 .mobile-header .mobile-btn .btn {
@@ -1194,8 +1208,9 @@ p.address-text {
 
 .cloud-header .cloud-header-text {
   color: black;
-  font-weight: 900;
-  font-size: 100px;
+  font-weight: 700;
+  font-size: 99px;
+  font-family: sans-serif;
 }
 
 .cloud-solution .cloud-btn .btn {
@@ -1512,3 +1527,5 @@ p.address-text {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
+
+/* mediaQuery */

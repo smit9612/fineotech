@@ -49,7 +49,7 @@
             <div class="col-md-6 col-sm-6 col-xs-6">
                 <div class="cloud-solution-heading-text">
                     <p class="cloud-solution-heading-text-1">Solutions in</p>
-                    <p class="cloud-solution-heading-text-2">Development</p>
+                    <p class="cloud-solution-heading-text-2">and Integration</p>
                 </div>
             </div>
         </div>

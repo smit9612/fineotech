@@ -11,10 +11,10 @@
                 <div class="text-white text-left">
                     <p class="footer-header">Quick Links</p>
                     <ul class="footer-text">
-                        <li><a href="javascript:void(0)">About Us</a></li>
-                        <li><a href="javascript:void(0)">Services</a></li>
-                        <li><a href="javascript:void(0)">Blog</a></li>
-                        <li><a href="javascript:void(0)">Contact</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a onClick="openNav()">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                         <span class="input-group-btn">
                             <button class="btn subscribe-btn" type="button"><span class="glyphicon glyphicon-search"
                                     aria-hidden="true">
-                                </span>Subscribe</button>
+                                </span>SUBSCRIBE</button>
                         </span>
                     </div>
                 </div>
