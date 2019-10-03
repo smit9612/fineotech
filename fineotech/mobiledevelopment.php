@@ -2,7 +2,7 @@
 <section id="mobile-header" class="mobile-header">
     <div class="container">
         <div class="row">
-            <div class="col-md-7 col-sm-12">
+            <div class="col-md-12 col-sm-12">
                 <h1 class="mobile-header-text pb-5">Mobile App<br>Development</h1>
             </div>
         </div>
@@ -20,25 +20,24 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-12">
-                <div class="mobile-solution-header">
+                <div class="mobile-solution-header col-md-9">
                     <p class="mobile-solution-title"><span>Experts in Mobile Payment Solutions
                         </span></p>
                     <p class="mobile-solution-text text-center">From concept to development, our cutting edge payment
-                        solutions enhance your business<br>
-                        security while managing all payment related key operations with maximum efficiency.<br> We have
-                        designed fast, intuitive and secure mobile apps for all major platforms such as<br>
-                        Apple, Android and SenchaTouch.<br><br>
-                        Our mobile apps are enabled with outstanding functionalities that deliver a secure and
-                        smooth<br>
-                        experience to the end user. Our key focus is to innovate and reorient your idea with
-                        advanced<br>
-                        digital applications using a methodological and innovative development strategy.
+                        solutions enhance your business security while managing all payment related key operations with
+                        maximum efficiency. We have
+                        designed fast, intuitive and secure mobile apps for all major platforms such as Apple, Android
+                        and SenchaTouch.<br><br> Our mobile apps are enabled with outstanding functionalities that
+                        deliver a
+                        secure and
+                        smooth experience to the end user. Our key focus is to innovate and reorient your idea with
+                        advanced digital applications using a methodological and innovative development strategy.
                     </p>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center custome-mobile-technolgy-row">
                 <div class="col-xs-12 flex-nowrap mobile-solution-img">
                     <div class="text-center">
                         <img class="img-fluid" src="img/features/mobile2_swift.png" alt="">
@@ -160,11 +159,11 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-12">
-                <div class="mobile-services-header">
+                <div class="mobile-services-header col-md-9">
                     <p class="mobile-services-title">Mobile App Development Services
                     </p>
                     <p class="mobile-services-text text-center">We leverage our years of experience to offer custom app
-                        development and consulting services along<br>
+                        development and consulting services along
                         with agile development strategies to deliver cutting edge , secure, scalable mobile
                         applications.
                     </p>
@@ -174,7 +173,7 @@
     </div>
     <div class="container pt-5">
         <div class="row">
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-sm-4 custome-mobile-flex">
                 <div class="mobile-item-boxes">
                     <div class="mobile-services-img py-4">
                         <img class="img-fluid mobile-services-img-fluid" src="img/features/mobile5_native.png" alt="">
@@ -183,7 +182,7 @@
                         App Development</h4>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-sm-4 custome-mobile-flex">
                 <div class="mobile-item-boxes">
                     <div class="mobile-services-img py-4">
                         <img class="img-fluid mobile-services-img-fluid" src="img/features/mobile5_ui_ux.png" alt="">
@@ -192,7 +191,7 @@
                         Design Strategy</h4>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-sm-4 custome-mobile-flex">
                 <div class="mobile-item-boxes">
                     <div class="mobile-services-img py-4">
                         <img class="img-fluid mobile-services-img-fluid" src="img/features/mobile5_intgration.png"
@@ -253,7 +252,8 @@
                         <!-- </div> -->
                     </div>
                     <div class="card-footer mobile-footer">
-                        <p>Read Full Blog</p><img class="read-btn" src="img/features/Read Blog.png" alt="Card image">
+                        <p>Read Full Blog</p><button id="submit" type="submit"><img class="read-btn"
+                                src="img/features/Read Blog.png" alt="Card image"></button>
                     </div>
                 </div>
             </div>
@@ -290,8 +290,8 @@
                             <!-- </div> -->
                         </div>
                         <div class="card-footer mobile-footer-2">
-                            <p>Read Full Blog</p><img class="read-btn" src="img/features/Read Blog.png"
-                                alt="Card image">
+                            <p>Read Full Blog</p><button id="submit" type="submit"><img class="read-btn"
+                                    src="img/features/Read Blog.png" alt="Card image"></button>
                         </div>
                     </div>
                 </div>

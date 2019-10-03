@@ -288,6 +288,10 @@ p.address-text {
 
 /* blog section  */
 
+.blog .blog-card-2 .blog-part-2-content {
+  position: relative;
+}
+
 .blog .blog-header {
   margin: 0 auto;
 }
@@ -315,7 +319,7 @@ p.address-text {
 
 .blog .card.blog-card {
   flex-grow: 1;
-  height: 500px;
+  height: 464px;
   width: 100%;
   border-radius: 60px;
   box-shadow: 1px 2px 8px 4px rgba(237, 237, 237, 1);
@@ -374,6 +378,46 @@ p.address-text {
   padding: 0 30px;
   color: #333;
   line-height: normal;
+}
+
+.blog button[type="submit"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.web-blog button[type="submit"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.mobile-blog button[type="submit"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.cloud-blog button[type="submit"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
 /* blog part 1 */
@@ -508,17 +552,18 @@ p.address-text {
 .blog .card.blog-card-2 {
   flex-direction: row;
   flex-grow: 1;
-  height: 260px;
+  height: 230px;
   width: 100%;
   border-radius: 60px;
   box-shadow: 1px 2px 8px 4px rgba(237, 237, 237, 1);
   border: none;
+  margin-bottom: 40px;
 }
 
 .blog .blog-card-2 .blog-image-2 {
   width: 100%;
   border-top-left-radius: 60px;
-  height: 260px;
+  height: 230px;
   border-bottom-left-radius: 60px;
 }
 
@@ -531,8 +576,8 @@ p.address-text {
   display: flex;
   align-items: center;
   position: relative;
-  top: 30px;
-  padding: 0px;
+  top: 0;
+  right: 0px;
 }
 
 .blog .card .footer-2 p {
@@ -555,7 +600,7 @@ p.address-text {
 
 .blog .card .card-title-text-2 {
   font-size: 22px;
-  padding: 25px 0 5px 0px;
+  padding: 34px 0 5px 0px;
   font-family: raleway;
   font-weight: 600;
 }
@@ -575,18 +620,19 @@ p.address-text {
 .blog .card.blog-card-3 {
   flex-direction: row;
   flex-grow: 1;
-  height: 230px;
+  height: 190px;
   width: 100%;
   border-radius: 60px;
   box-shadow: 1px 2px 8px 4px rgba(237, 237, 237, 1);
   border: none;
   margin-top: 20px;
+  position: relative;
 }
 
 .blog .blog-card-3 .blog-image-3 {
   width: 100%;
   border-top-left-radius: 60px;
-  height: 230px;
+  height: 190px;
   border-bottom-left-radius: 60px;
 }
 
@@ -599,8 +645,8 @@ p.address-text {
   display: flex;
   align-items: center;
   position: relative;
-  padding: 0;
-  top: 0px;
+  right: 0;
+  bottom: 0;
 }
 
 .blog .card .footer-3 p {
@@ -618,11 +664,12 @@ p.address-text {
 .blog .card .blog-body-3 {
   max-height: 328px;
   overflow: hidden;
+  padding: 0px;
 }
 
 .blog .card .card-title-text-3 {
   font-size: 22px;
-  padding: 25px 0 5px 0px;
+  padding: 32px 0 5px 0px;
   font-family: raleway;
   font-weight: 600;
 }
@@ -969,6 +1016,10 @@ p.address-text {
   font-weight: 900;
 }
 
+.mobile-solution .mobile-solution-header {
+  margin: 0 auto;
+}
+
 #mobile-solution-2 {
   box-shadow: 0 5px 15px -5px rgba(237, 237, 237, 1);
 }
@@ -1003,9 +1054,11 @@ p.address-text {
 .mobile-solution .mobile-solution-header .mobile-solution-title {
   color: #000000;
   text-transform: none;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 35px;
   text-align: center;
+  line-height: 32px;
+  font-family: raleway;
 }
 
 .mobile-solution .mobile-solution-header .mobile-solution-text {
@@ -1035,14 +1088,23 @@ p.address-text {
 .mobile-services .mobile-services-header .mobile-services-title {
   color: #000000;
   text-transform: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 35px;
   text-align: center;
+  font-family: raleway;
 }
 
 .mobile-services .mobile-services-header .mobile-services-text {
   font-size: 18px;
   font-weight: 200;
+}
+
+.mobile-services .mobile-services-header {
+  margin: 0 auto;
+}
+
+.mobile-services .custome-mobile-flex {
+  padding: 0 25px;
 }
 
 .mobile-item-boxes {
@@ -1139,6 +1201,8 @@ p.address-text {
 .mobile-blog .card .mobile-card-title-text {
   font-size: 22px;
   padding: 25px 0 5px 25px;
+  font-family: raleway;
+  font-weight: 600;
 }
 
 .mobile-blog .card .mobile-footer .mobile-blog-btn {
@@ -1150,6 +1214,8 @@ p.address-text {
   padding: 0 30px;
   color: #333;
   line-height: normal;
+  font-weight: 100;
+  font-size: 18px;
 }
 
 /* mobile blog part 2 */
@@ -1203,6 +1269,8 @@ p.address-text {
 .mobile-blog .card .mobile-card-title-text-2 {
   font-size: 22px;
   padding: 25px 0 5px 25px;
+  font-family: raleway;
+  font-weight: 600;
 }
 
 .mobile-blog .card .mobile-footer-2 .mobile-blog-btn-2 {
@@ -1214,6 +1282,8 @@ p.address-text {
   padding: 0 30px;
   color: #333;
   line-height: normal;
+  font-weight: 100;
+  font-size: 18px;
 }
 /* cloude deve;opment */
 
@@ -1239,6 +1309,10 @@ p.address-text {
   font-size: 45px;
   color: rgba(0, 174, 239, 0.3);
   font-weight: 900;
+}
+
+.cloud-solution .cloud-solution-header {
+  margin: 0 auto;
 }
 
 .cloud-header {
@@ -1320,14 +1394,19 @@ p.address-text {
 .cloud-services .cloud-services-header .cloud-services-title {
   color: #000000;
   text-transform: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 35px;
   text-align: center;
+  font-family: raleway;
 }
 
 .cloud-services .cloud-services-header .cloud-services-text {
   font-size: 18px;
   font-weight: 200;
+}
+
+.cloud-services .cloud-services-header {
+  margin: 0 auto;
 }
 
 .cloud-item-boxes {
@@ -1360,6 +1439,10 @@ p.address-text {
   width: 100px;
 }
 
+.cloud-services .custome-cloud-flex {
+  padding: 0 25px;
+}
+
 /* blog */
 .cloud-blog .cloud-blog-header .cloud-blog-title {
   color: #000000;
@@ -1372,6 +1455,10 @@ p.address-text {
 .cloud-blog .cloud-blog-header .cloud-blog-text {
   font-size: 18px;
   padding-top: 20px;
+}
+
+.cloud-blog .cloud-blog-header {
+  margin: 0 auto;
 }
 /* blog part 1 */
 .cloud-blog .card.cloud-blog-card {
@@ -1421,6 +1508,8 @@ p.address-text {
 .cloud-blog .card .cloud-card-title-text {
   font-size: 22px;
   padding: 25px 0 5px 25px;
+  font-family: raleway;
+  font-weight: 600;
 }
 
 .cloud-blog .card .cloud-footer .cloud-blog-btn {
@@ -1432,6 +1521,8 @@ p.address-text {
   padding: 0 30px;
   color: #333;
   line-height: normal;
+  font-weight: 100;
+  font-size: 18px;
 }
 
 /* mobile blog part 2 */
@@ -1485,6 +1576,8 @@ p.address-text {
 .cloud-blog .card .cloud-card-title-text-2 {
   font-size: 22px;
   padding: 25px 0 5px 25px;
+  font-family: raleway;
+  font-weight: 600;
 }
 
 .cloud-blog .card .cloud-footer-2 .cloud-blog-btn-2 {
@@ -1496,6 +1589,8 @@ p.address-text {
   padding: 0 30px;
   color: #333;
   line-height: normal;
+  font-weight: 100;
+  font-size: 18px;
 }
 
 /* contact form */
@@ -1697,6 +1792,14 @@ p.address-text {
   .web-services .web-services-header .web-services-title {
     line-height: 38px;
   }
+
+  .mobile-services .mobile-services-header .mobile-services-title {
+    line-height: 38px;
+  }
+  /* .mobile-services .custome-mobile-flex {
+    display: flex;
+    justify-content: center;
+  } */
 }
 
 @media screen and (max-width: 768px) {
@@ -1740,6 +1843,71 @@ p.address-text {
   .web-solution .web-solution-img {
     display: inline-block;
   }
+
+  .mobile-header {
+    padding: 220px 0px 160px 0px;
+  }
+
+  .mobile-header .mobile-header-text {
+    font-size: 80px;
+  }
+
+  .mobile-solution .custome-mobile-technolgy-row {
+    justify-content: center;
+  }
+
+  .mobile-solution .mobile-solution-img {
+    display: inline-block;
+    flex-wrap: wrap !important;
+  }
+
+  .mobile-solution .mobile-solution-heading {
+    padding-bottom: 10px !important;
+  }
+
+  .mobile-solution .mobile-solution-heading p {
+    font-size: 90px;
+  }
+
+  .mobile-solution .mobile-solution-heading .mobile-solution-heading-text-1 {
+    font-size: 35px;
+  }
+
+  .mobile-solution .mobile-solution-heading-text p {
+    font-size: 36px;
+  }
+
+  .mobile-solution .mobile-solution-section {
+    padding-top: 20px;
+  }
+
+  .mobile-blog .card {
+    margin-bottom: 40px;
+  }
+
+  .cloud-header {
+    padding: 220px 0px 160px 0px;
+  }
+
+  .cloud-header .cloud-header-text {
+    font-size: 80px;
+  }
+
+  .cloud-solution .cloud-solution-heading p {
+    font-size: 80px;
+  }
+
+  .cloud-solution .cloud-solution-heading .cloud-solution-heading-text-1 {
+    font-size: 35px;
+  }
+
+  .cloud-solution .cloud-solution-heading-text p {
+    font-size: 35px;
+  }
+
+  .cloud-blog .card {
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1769,6 +1937,16 @@ p.address-text {
     padding: 15px 90px;
     margin: 0 auto;
   }
+
+  .mobile-services .custome-mobile-flex {
+    padding: 15px 90px;
+    margin: 0 auto;
+  }
+
+  .cloud-services .custome-cloud-flex {
+    padding: 15px 90px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 532px) {
@@ -1786,6 +1964,27 @@ p.address-text {
   .web-solution .web-solution-heading-text p {
     font-size: 30px;
   }
+
+  .mobile-header .mobile-header-text {
+    font-size: 60px;
+  }
+
+  .mobile-solution .mobile-solution-heading p {
+    font-size: 75px;
+  }
+
+  .mobile-solution .mobile-solution-heading .mobile-solution-heading-text-1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .mobile-solution .mobile-solution-heading-text p {
+    font-size: 30px;
+  }
+
+  .cloud-header .cloud-header-text {
+    font-size: 60px;
+  }
 }
 
 @media screen and (max-width: 382px) {
@@ -1800,11 +1999,84 @@ p.address-text {
     font-size: 25px;
     margin-bottom: 0;
   }
+
+  .mobile-solution .mobile-solution-heading p {
+    font-size: 50px !important;
+  }
+
+  .mobile-solution .mobile-solution-heading .mobile-solution-heading-text-1 {
+    font-size: 20px !important;
+    margin-bottom: 0px !important ;
+  }
+
+  .mobile-solution .mobile-solution-heading-text p {
+    font-size: 20px !important;
+  }
 }
 
 @media screen and (max-width: 410px) {
   .web-header .web-header-text {
     font-size: 25px;
     line-height: 26px;
+  }
+
+  .mobile-header .mobile-header-text {
+    font-size: 54px;
+    line-height: 60px;
+  }
+
+  .cloud-header .cloud-header-text {
+    font-size: 54px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .mobile-header .mobile-header-text {
+    font-size: 39px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .cloud-solution .cloud-solution-heading p {
+    font-size: 75px;
+  }
+  .cloud-solution .cloud-solution-heading .cloud-solution-heading-text-1 {
+    font-size: 30px;
+    margin-bottom: 6px;
+  }
+  .cloud-solution .cloud-solution-heading-text p {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .cloud-solution .cloud-solution-heading p {
+    font-size: 62px;
+  }
+  .cloud-solution .cloud-solution-heading .cloud-solution-heading-text-1 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .cloud-solution .cloud-solution-heading-text p {
+    font-size: 20px;
+  }
+
+  .cloud-solution .cloud-solution-heading {
+    padding-bottom: 10px !important;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .mobile-solution .mobile-solution-heading p {
+    font-size: 60px;
+  }
+  .mobile-solution .mobile-solution-heading .mobile-solution-heading-text-1 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  .mobile-solution .mobile-solution-heading-text p {
+    font-size: 25px;
   }
 }

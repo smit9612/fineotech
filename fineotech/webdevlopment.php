@@ -245,7 +245,8 @@
                         <!-- </div> -->
                     </div>
                     <div class="card-footer web-footer">
-                        <p>Read Full Blog</p><img class="read-btn" src="img/features/Read Blog.png" alt="Card image">
+                        <p>Read Full Blog</p><button id="submit" type="submit"><img class="read-btn"
+                                src="img/features/Read Blog.png" alt="Card image"></button>
                     </div>
                 </div>
             </div>
@@ -283,8 +284,8 @@
                             <!-- </div> -->
                         </div>
                         <div class="card-footer web-footer-2">
-                            <p>Read Full Blog</p><img class="read-btn" src="img/features/Read Blog.png"
-                                alt="Card image">
+                            <p>Read Full Blog</p><button id="submit" type="submit"><img class="read-btn"
+                                    src="img/features/Read Blog.png" alt="Card image"></button>
                         </div>
                     </div>
                 </div>

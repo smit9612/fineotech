@@ -2,7 +2,7 @@
 <section id="cloud-header" class="cloud-header">
     <div class="container">
         <div class="row flex-nowrap">
-            <div class="col-md-7 col-sm-12">
+            <div class="col-md-12 col-sm-12">
                 <h1 class="cloud-header-text pb-5">Cloud and<br>Integration<br>Solutions </h1>
             </div>
         </div>
@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row align-items-center pt-5">
             <div class="col-md-12">
-                <div class="cloud-solution-header">
+                <div class="cloud-solution-header col-md-9">
                     <p class="cloud-solution-title">OPTIMIZE DIGITAL PAYMENTS WITH CLOUD AND INTEGRATION SOLUTIONS
                     </p>
                     <p class="cloud-solution-text text-center">We at Fineotech, aim to transform mobile devices and
@@ -42,7 +42,7 @@
 
 <section id="cloud-solution-2" class="cloud-solution pt-5 pb-5">
     <div class="container">
-        <div class="row align-items-center cloud-solution-heading pb-5">
+        <div class="row flex-nowrap align-items-center cloud-solution-heading pb-5">
             <div class="col-md-6 col-sm-6 col-xs-6">
                 <p class="cloud-solution-heading-1">Cloud</p>
             </div>
@@ -126,7 +126,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-12">
-                <div class="cloud-services-header">
+                <div class="cloud-services-header col-md-9">
                     <p class="cloud-services-title">Cloud & Integration Services
                     </p>
                     <p class="cloud-services-text text-center">We have the experience and expertise to enable
@@ -139,7 +139,7 @@
     </div>
     <div class="container pt-5">
         <div class="row">
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-sm-4 custome-cloud-flex">
                 <div class="cloud-item-boxes">
                     <div class="cloud-services-img py-4">
                         <img class="img-fluid cloud-services-img-fluid" src="img/features/cloud5_integrations.png"
@@ -149,7 +149,7 @@
                         Workflows & Execution</h4>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-sm-4 custome-cloud-flex">
                 <div class="cloud-item-boxes">
                     <div class="cloud-services-img py-4">
                         <img class="img-fluid cloud-services-img-fluid" src="img/features/cloud5_migration.png" alt="">
@@ -158,7 +158,7 @@
                         and Security</h4>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-sm-4 custome-cloud-flex">
                 <div class="cloud-item-boxes">
                     <div class="cloud-services-img py-4">
                         <img class="img-fluid cloud-services-img-fluid" src="img/features/cloud5_cloud.png" alt="">
@@ -177,7 +177,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-12">
-                <div class="cloud-blog-header">
+                <div class="cloud-blog-header col-md-9">
                     <p class="cloud-blog-title"><span>Our Blog
                         </span></p>
                     <p class="cloud-blog-text text-center">As payments become streamlined with tap-to-pay, check out our
@@ -219,7 +219,8 @@
                         <!-- </div> -->
                     </div>
                     <div class="card-footer cloud-footer">
-                        <p>Read Full Blog</p><img class="read-btn" src="img/features/Read Blog.png" alt="Card image">
+                        <p>Read Full Blog</p><button id="submit" type="submit"><img class="read-btn"
+                                src="img/features/Read Blog.png" alt="Card image"></button>
                     </div>
                 </div>
             </div>
@@ -257,8 +258,8 @@
                             <!-- </div> -->
                         </div>
                         <div class="card-footer cloud-footer-2">
-                            <p>Read Full Blog</p><img class="read-btn" src="img/features/Read Blog.png"
-                                alt="Card image">
+                            <p>Read Full Blog</p><button id="submit" type="submit"><img class="read-btn"
+                                    src="img/features/Read Blog.png" alt="Card image"></button>
                         </div>
                     </div>
                 </div>

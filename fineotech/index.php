@@ -252,8 +252,8 @@
                         <!-- </div> -->
                     </div>
                     <div class="card-footer footer">
-                        <p>Read Full Blog</p><img class="read-btn" src="img/features/Read Blog.png"
-                            alt="Card image"></i>
+                        <p>Read Full Blog</p><button id="submit" type="submit"><img class="read-btn"
+                                src="img/features/Read Blog.png" alt="Card image"></i></button>
                     </div>
                 </div>
             </div>
@@ -273,7 +273,8 @@
                                 <!-- </div> -->
                             </div>
                             <div class="card-footer footer-2">
-                                <p>Read Blog</p><img class="read-btn" src="img/features/Read Blog.png" alt="Card image">
+                                <p>Read Blog</p><button id="submit" type="submit"><img class="read-btn"
+                                        src="img/features/Read Blog.png" alt="Card image"></button>
                             </div>
                         </div>
                     </div>
@@ -293,7 +294,8 @@
                                 <!-- </div> -->
                             </div>
                             <div class="card-footer footer-3">
-                                <p>Read Blog</p><img class="read-btn" src="img/features/Read Blog.png" alt="Card image">
+                                <p>Read Blog</p><button id="submit" type="submit"><img class="read-btn"
+                                        src="img/features/Read Blog.png" alt="Card image"></button>
                             </div>
                         </div>
                     </div>
