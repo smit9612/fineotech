@@ -344,6 +344,10 @@ p.address-text {
   align-items: center;
 }
 
+.blog .card .card-footer {
+  padding: 0px;
+}
+
 .blog .card .footer p {
   color: #333;
   padding-top: 15px;
@@ -694,20 +698,20 @@ p.address-text {
 .web-solution .web-solution-heading p {
   text-align: end;
   font-size: 100px;
-  color: rgba(0, 174, 239, 0.6);
+  color: rgba(0, 174, 239, 0.3);
   font-weight: 900;
 }
 
 .web-solution .web-solution-heading .web-solution-heading-text-1 {
   text-align: start;
   font-size: 40px;
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.4);
   font-weight: 900;
 }
 .web-solution .web-solution-heading-text p {
   text-align: start;
   font-size: 45px;
-  color: rgba(0, 174, 239, 0.3);
+  color: rgba(0, 174, 239, 0.2);
   font-weight: 900;
 }
 
@@ -999,20 +1003,20 @@ p.address-text {
 .mobile-solution .mobile-solution-heading p {
   text-align: end;
   font-size: 100px;
-  color: rgba(0, 174, 239, 0.6);
+  color: rgba(0, 174, 239, 0.3);
   font-weight: 900;
 }
 
 .mobile-solution .mobile-solution-heading .mobile-solution-heading-text-1 {
   text-align: start;
   font-size: 40px;
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.4);
   font-weight: 900;
 }
 .mobile-solution .mobile-solution-heading-text p {
   text-align: start;
   font-size: 45px;
-  color: rgba(0, 174, 239, 0.3);
+  color: rgba(0, 174, 239, 0.2);
   font-weight: 900;
 }
 
@@ -1294,20 +1298,20 @@ p.address-text {
 .cloud-solution .cloud-solution-heading p {
   text-align: end;
   font-size: 100px;
-  color: rgba(0, 174, 239, 0.6);
+  color: rgba(0, 174, 239, 0.3);
   font-weight: 900;
 }
 
 .cloud-solution .cloud-solution-heading .cloud-solution-heading-text-1 {
   text-align: start;
   font-size: 40px;
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.4);
   font-weight: 900;
 }
 .cloud-solution .cloud-solution-heading-text p {
   text-align: start;
   font-size: 45px;
-  color: rgba(0, 174, 239, 0.3);
+  color: rgba(0, 174, 239, 0.2);
   font-weight: 900;
 }
 
@@ -1752,6 +1756,22 @@ p.address-text {
   transition: all 0.2s linear;
 }
 
+.sidenav .contact-section .contact-form .text-area-formgroup {
+  position: relative;
+}
+
+.sidenav .contact-section .contact-form.with-errors .button-formgroup {
+  position: absolute;
+  bottom: 80px;
+  right: 40px;
+}
+
+.sidenav .contact-section .contact-form .button-formgroup {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
+
 @media screen and (min-width: 640px) {
   .navbar .navbar-collapse .navbar-nav .nav-item a.work {
     padding-right: 3rem !important;
@@ -1761,7 +1781,7 @@ p.address-text {
 @media screen and (max-width: 700px) {
   .sidenav {
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -1908,6 +1928,10 @@ p.address-text {
   .cloud-blog .card {
     margin-bottom: 40px;
   }
+
+  .blog .card.blog-card {
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -2035,6 +2059,22 @@ p.address-text {
   .mobile-header .mobile-header-text {
     font-size: 39px;
     line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .blog .card .card-title-text-2 {
+    font-size: 18px;
+    padding: 34px 0 5px 0px;
+    font-family: raleway;
+    font-weight: 600;
+  }
+
+  .blog .card .card-title-text-3 {
+    font-size: 18px;
+    padding: 32px 0 5px 0px;
+    font-family: raleway;
+    font-weight: 600;
   }
 }
 

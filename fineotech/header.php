@@ -71,7 +71,7 @@
                 <div class="contact-form">
                     <div class="container">
                         <div class="row justify-content-md-center">
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-sm-8">
                                 <div class="contact-block">
                                     <p class="contact-email">info@fineotech.com</p>
                                     <p class="contact-address">437 M, Belmount Road
@@ -79,7 +79,7 @@
                                 </div>
                                 <hr class="contact-hr">
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-4">
                                 <a href="javascript:void(0)" onclick="closeNav()"><img src="img/features/closebtn.png"
                                         alt="Card image"></a>
                             </div>
@@ -124,13 +124,13 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12">
-                                            <div class="form-group">
+                                            <div class="form-group text-area-formgroup">
                                                 <textarea class="form-control custome-input" id="message"
                                                     placeholder="Your Message" name="message" rows="11"
                                                     data-error="Write your message" required></textarea>
                                                 <div class="help-block with-errors"></div>
                                             </div>
-                                            <button id="submit" type="submit">
+                                            <button id="submit" type="submit" class="button-formgroup" class="submit">
                                                 <img src="img/features/sendbtn.png" alt="Card image">
                                             </button>
                                             <div id="msgSubmit" class="h3 text-center hidden"></div>

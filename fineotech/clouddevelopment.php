@@ -14,13 +14,12 @@
         <div class="row align-items-center pt-5">
             <div class="col-md-12">
                 <div class="cloud-solution-header col-md-9">
-                    <p class="cloud-solution-title">OPTIMIZE DIGITAL PAYMENTS WITH CLOUD AND INTEGRATION SOLUTIONS
+                    <p class="cloud-solution-title">Optimize Digital Payments with Cloud and Integration Solutions
                     </p>
                     <p class="cloud-solution-text text-center">We at Fineotech, aim to transform mobile devices and
                         gadgets into digital eWallets by enabling them with cloud based solutions and integrations with
                         third party apps. This offers your customers a full suite of capabilities by escalating the
-                        level of technological convenience.
-
+                        level of technological convenience.<br><br>
                         Cloud based mobile payment solutions are simplifying the process by offering the mobile payment
                         provider to stay in the middle of the transaction and also ensuring security. Beat your
                         competitors with cloud based solutions that are easy and secure for cross-industry solutions.
@@ -145,7 +144,7 @@
                         <img class="img-fluid cloud-services-img-fluid" src="img/features/cloud5_integrations.png"
                             alt="">
                     </div>
-                    <h4>Integration<br>
+                    <h4>Integrations<br>
                         Workflows & Execution</h4>
                 </div>
             </div>

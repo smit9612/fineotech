@@ -51,7 +51,7 @@
             <div class="col-md-3">
                 <div class="copyright-section-privacy text-white text-right">
                     <p class="footer-text"><a href="javascript:void(0)">Privacy Policy</a></p>&nbsp &nbsp
-                    <p class="footer-text"><a href="javascript:void(0)">Terms And Condition</a></p>
+                    <p class="footer-text"><a href="javascript:void(0)">Terms And Conditions</a></p>
                 </div>
             </div>
         </div>
@@ -210,19 +210,36 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 <script>
 function openNav() {
-    document.getElementById("mySidenav").style.width = "580px";
-    document.getElementById("main").style.marginRight = "250px";
+    var width = $(window).width();
+    if (width > 580) {
+        document.getElementById("mySidenav").style.width = "580px";
+    } else {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginRight = "0";
 }
 
 $(".navbar-nav li a").click(function(event) {
     if (!$(this).parent().hasClass('dropdown'))
         $(".navbar-collapse").collapse('hide');
 });
+
+const button = document.querySelector('#submit')
+
+function materializeEffect(event) {
+    const circle = document.createElement('div')
+    const x = event.layerX
+    const y = event.layerY
+    circle.classList.add('circle')
+    circle.style.left = `${x}px`
+    circle.style.top = `${y}px`
+    this.appendChild(circle)
+}
+
+button.addEventListener('click', materializeEffect)
 </script>
 
 
