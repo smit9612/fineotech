@@ -1772,6 +1772,10 @@ p.address-text {
   right: 40px;
 }
 
+.sidenav .contact-section .contact-form .button-formgroup img {
+  width: 100px;
+}
+
 @media screen and (min-width: 640px) {
   .navbar .navbar-collapse .navbar-nav .nav-item a.work {
     padding-right: 3rem !important;
@@ -2076,6 +2080,21 @@ p.address-text {
     font-family: raleway;
     font-weight: 600;
   }
+
+  .mobile-solution .mobile-solution-font {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .cloud-solution .cloud-solution-font {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .web-solution .web-solution-font {
+    font-weight: 500;
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 535px) {
@@ -2118,5 +2137,83 @@ p.address-text {
   }
   .mobile-solution .mobile-solution-heading-text p {
     font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .web-solution .web-solution-header .web-solution-title {
+    text-align: left;
+    line-height: 36px;
+  }
+
+  .web-solution .web-solution-header .web-solution-text {
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: left !important;
+  }
+
+  .web-services .web-services-header .web-services-title {
+    text-align: left;
+  }
+
+  .web-services .web-services-header .web-services-text {
+    text-align: left !important;
+  }
+
+  .web-blog .web-blog-header .web-blog-title {
+    text-align: left;
+  }
+
+  .web-blog .web-blog-header .web-blog-text {
+    text-align: left !important;
+  }
+
+  .mobile-solution .mobile-solution-header .mobile-solution-title {
+    text-align: left;
+  }
+
+  .mobile-solution .mobile-solution-header .mobile-solution-text {
+    text-align: left !important;
+  }
+
+  .mobile-services .mobile-services-header .mobile-services-title {
+    text-align: left;
+  }
+
+  .mobile-services .mobile-services-header .mobile-services-text {
+    text-align: left !important;
+  }
+
+  .mobile-blog .mobile-blog-header .mobile-blog-title {
+    text-align: left;
+  }
+
+  .mobile-blog .mobile-blog-header .mobile-blog-text {
+    text-align: left !important;
+  }
+
+  .cloud-solution .cloud-solution-header .cloud-solution-title {
+    text-align: left;
+  }
+
+  .cloud-solution .cloud-solution-header .cloud-solution-text {
+    text-align: left !important;
+  }
+
+  .cloud-services .cloud-services-header .cloud-services-title {
+    text-align: left;
+    line-height: 32px;
+  }
+
+  .cloud-services .cloud-services-header .cloud-services-text {
+    text-align: left !important;
+  }
+
+  .cloud-blog .cloud-blog-header .cloud-blog-title {
+    text-align: left;
+  }
+
+  .cloud-blog .cloud-blog-header .cloud-blog-text {
+    text-align: left !important;
   }
 }

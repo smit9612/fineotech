@@ -30,6 +30,8 @@
     <!-- Styles  -->
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
 
 </head>
 
@@ -109,7 +111,7 @@
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <input type="text" placeholder="Your Email" id="email"
+                                                <input type="text" placeholder="Email Address" id="email"
                                                     class="form-control custome-input" name="email" required
                                                     data-error="Please enter your email">
                                                 <div class="help-block with-errors"></div>
@@ -117,7 +119,7 @@
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <input type="text" placeholder="Subject" id="subject"
+                                                <input type="text" placeholder="Country" id="subject"
                                                     class="form-control custome-input" name="subject" required
                                                     data-error="Please enter your subject">
                                                 <div class="help-block with-errors"></div>
@@ -133,10 +135,14 @@
                                             <button id="submit" type="submit" class="button-formgroup" class="submit">
                                                 <img src="img/features/sendbtn.png" alt="Card image">
                                             </button>
-                                            <div id="msgSubmit" class="h3 text-center hidden"></div>
                                             <div class="clearfix"></div>
                                         </div>
+                                        <div class="col-12 form-group text-left">
+                                            <div class="g-recaptcha"
+                                                data-sitekey="6Ldd3bsUAAAAADJcazsUG4c_dATOOpRUV_z_Bbi4"></div>
+                                        </div>
                                     </div>
+                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
                                 </form>
                             </div>
                         </div>

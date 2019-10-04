@@ -18,6 +18,7 @@ function submitForm() {
   var email = $("#email").val();
   var subject = $("#subject").val();
   var message = $("#message").val();
+  var recaptcha = $("#g-recaptcha-response").val();
 
   $.ajax({
     type: "POST",
@@ -30,7 +31,9 @@ function submitForm() {
       "&subject=" +
       subject +
       "&message=" +
-      message,
+      message +
+      "&recaptcha=" +
+      recaptcha,
     success: function(text) {
       if (text == "success") {
         formSuccess();

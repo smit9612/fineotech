@@ -92,7 +92,7 @@
                     <img class="img-fluid" src="img/features/mobile3_custom_mobile.png" alt="">
                 </div>
                 <div class="col-md-8 float-right">
-                    <p class="mobile-solution-font">Custom Mobile Payment<br>Processing Solution</p>
+                    <p class="mobile-solution-font">Custom Mobile Payment Processing Solution</p>
                 </div>
             </div>
             <div class="col-md-4 mobile-solution-section">
@@ -101,7 +101,7 @@
                 </div>
                 <div class="col-md-8 float-right">
                     <p class="mobile-solution-font">Payroll Integration
-                        <br>for Corporates</p>
+                        or Corporates</p>
                 </div>
             </div>
             <div class="col-md-4 mobile-solution-section">
@@ -109,7 +109,7 @@
                     <img class="img-fluid" src="img/features/mobile3_insurance.png" alt="">
                 </div>
                 <div class="col-md-8 float-right">
-                    <p class="mobile-solution-font">Insurance Billing &<br>Payment Solution</p>
+                    <p class="mobile-solution-font">Insurance Billing & Payment Solution</p>
                 </div>
             </div>
         </div>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="col-md-8 float-right">
                     <p class="mobile-solution-font">Loyalty Solutions
-                        <br>for Businesses</p>
+                        for Businesses</p>
                 </div>
             </div>
             <div class="col-md-4 mobile-solution-section">
@@ -129,7 +129,7 @@
                 </div>
                 <div class="col-md-8 float-right">
                     <p class="mobile-solution-font">POS Solutions
-                        <br>for Business</p>
+                        for Business</p>
                 </div>
             </div>
             <div class="col-md-4 mobile-solution-section">
@@ -137,7 +137,7 @@
                     <img class="img-fluid" src="img/features/mobile3_integration.png" alt="">
                 </div>
                 <div class="col-md-8 float-right">
-                    <p class="mobile-solution-font">Integration for<br>Digital Payments</p>
+                    <p class="mobile-solution-font">Integration for Digital Payments</p>
                 </div>
             </div>
         </div>
@@ -178,7 +178,7 @@
                     <div class="mobile-services-img py-4">
                         <img class="img-fluid mobile-services-img-fluid" src="img/features/mobile5_native.png" alt="">
                     </div>
-                    <h4>Native & Hybrid<br>
+                    <h4>Native & Hybrid
                         App Development</h4>
                 </div>
             </div>
@@ -187,7 +187,7 @@
                     <div class="mobile-services-img py-4">
                         <img class="img-fluid mobile-services-img-fluid" src="img/features/mobile5_ui_ux.png" alt="">
                     </div>
-                    <h4>UI/UX<br>
+                    <h4>UI/UX
                         Design Strategy</h4>
                 </div>
             </div>
@@ -197,7 +197,7 @@
                         <img class="img-fluid mobile-services-img-fluid" src="img/features/mobile5_intgration.png"
                             alt="">
                     </div>
-                    <h4>Integration and<br>
+                    <h4>Integration and
                         Maintenance</h4>
                 </div>
             </div>

@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row flex-nowrap">
             <div class="col-md-12 col-sm-12">
-                <h1 class="cloud-header-text pb-5">Cloud and<br>Integration<br>Solutions </h1>
+                <h1 class="cloud-header-text pb-5">Cloud and Integration Solutions </h1>
             </div>
         </div>
     </div>
@@ -58,7 +58,7 @@
                     <img class="img-fluid" src="img/features/cloud3_cloud_migration.png" alt="">
                 </div>
                 <div class="col-md-8 float-right">
-                    <p class="cloud-solution-font">Cloud Migration<br>& Transformation</p>
+                    <p class="cloud-solution-font">Cloud Migration & Transformation</p>
                 </div>
             </div>
             <div class="col-md-4 cloud-solution-section">
@@ -67,7 +67,7 @@
                 </div>
                 <div class="col-md-8 float-right">
                     <p class="cloud-solution-font">Integrations with
-                        <br>Third Party Apps</p>
+                        Third Party Apps</p>
                 </div>
             </div>
             <div class="col-md-4 cloud-solution-section">
@@ -75,7 +75,7 @@
                     <img class="img-fluid" src="img/features/cloud3_hyrbid.png" alt="">
                 </div>
                 <div class="col-md-8 float-right">
-                    <p class="cloud-solution-font">Hyrbid Environment<br>Strategy</p>
+                    <p class="cloud-solution-font">Hyrbid Environment Strategy</p>
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-md-8 float-right">
                     <p class="cloud-solution-font">Cloud and
-                        <br>Workload Advisory</p>
+                        Workload Advisory</p>
                 </div>
             </div>
             <div class="col-md-4 cloud-solution-section">
@@ -95,7 +95,7 @@
                 </div>
                 <div class="col-md-8 float-right">
                     <p class="cloud-solution-font">POS & Payment
-                        <br>Solutions on Cloud</p>
+                        Solutions on Cloud</p>
                 </div>
             </div>
             <div class="col-md-4 cloud-solution-section">
@@ -103,7 +103,7 @@
                     <img class="img-fluid" src="img/features/cloud3_sap.png" alt="">
                 </div>
                 <div class="col-md-8 float-right">
-                    <p class="cloud-solution-font">Integrations with<br>SAP & Containers</p>
+                    <p class="cloud-solution-font">Integrations with SAP & Containers</p>
                 </div>
             </div>
         </div>
@@ -144,7 +144,7 @@
                         <img class="img-fluid cloud-services-img-fluid" src="img/features/cloud5_integrations.png"
                             alt="">
                     </div>
-                    <h4>Integrations<br>
+                    <h4>Integrations
                         Workflows & Execution</h4>
                 </div>
             </div>
@@ -153,7 +153,7 @@
                     <div class="cloud-services-img py-4">
                         <img class="img-fluid cloud-services-img-fluid" src="img/features/cloud5_migration.png" alt="">
                     </div>
-                    <h4>Migration<br>
+                    <h4>Migration
                         and Security</h4>
                 </div>
             </div>
@@ -162,7 +162,7 @@
                     <div class="cloud-services-img py-4">
                         <img class="img-fluid cloud-services-img-fluid" src="img/features/cloud5_cloud.png" alt="">
                     </div>
-                    <h4>Cloud Maintenance<br>
+                    <h4>Cloud Maintenance
                         & Support</h4>
                 </div>
             </div>

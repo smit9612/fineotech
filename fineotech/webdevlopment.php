@@ -88,7 +88,7 @@
                     <img class="img-fluid web-solution-2-img" src="img/features/web3_custom_payment.png" alt="">
                 </div>
                 <div class="col-md-8 float-right">
-                    <p class="web-solution-font">Custom Payment<br>Processing Solution</p>
+                    <p class="web-solution-font">Custom Payment Processing Solution</p>
                 </div>
             </div>
             <div class="col-md-4 web-solution-section">
@@ -96,7 +96,7 @@
                     <img class="img-fluid web-solution-2-img" src="img/features/web3_multiple_currency.png" alt="">
                 </div>
                 <div class="col-md-8 float-right">
-                    <p class="web-solution-font">Multiple-Currency<br>Processing Solutions</p>
+                    <p class="web-solution-font">Multiple-Currency Processing Solutions</p>
                 </div>
             </div>
             <div class="col-md-4 web-solution-section">
@@ -104,7 +104,7 @@
                     <img class="img-fluid web-solution-2-img" src="img/features/web3_solutions.png" alt="">
                 </div>
                 <div class="col-md-8 float-right">
-                    <p class="web-solution-font">Solutions in Smart<br>Homes and Spaces</p>
+                    <p class="web-solution-font">Solutions in Smart Homes and Spaces</p>
                 </div>
             </div>
         </div>
@@ -115,7 +115,7 @@
                 </div>
                 <div class="col-md-8 float-right">
                     <p class="web-solution-font">Predictive Analytics
-                        <br>for Digital Payments</p>
+                        for Digital Payments</p>
                 </div>
             </div>
             <div class="col-md-4 web-solution-section">
@@ -124,7 +124,7 @@
                 </div>
                 <div class="col-md-8 float-right">
                     <p class="web-solution-font">Web Application
-                        <br>for POS Systems</p>
+                        for POS Systems</p>
                 </div>
             </div>
             <div class="col-md-4 web-solution-section">
@@ -133,7 +133,7 @@
                 </div>
                 <div class="col-md-8 float-right">
                     <p class="web-solution-font">Integration for
-                        <br>Digital Payments</p>
+                        Digital Payments</p>
                 </div>
             </div>
         </div>
@@ -173,7 +173,7 @@
                     <div class="web-services-img py-4">
                         <img class="img-fluid web-services-img-fluid" src="img/features/web5_solutions.png" alt="">
                     </div>
-                    <h4>Solution Architecture<br>
+                    <h4>Solution Architecture
                         and Prototype</h4>
                 </div>
             </div>
@@ -182,7 +182,7 @@
                     <div class="web-services-img py-4">
                         <img class="img-fluid web-services-img-fluid" src="img/features/web5_cloud.png" alt="">
                     </div>
-                    <h4>Cloud Migration<br>
+                    <h4>Cloud Migration
                         Strategy</h4>
                 </div>
             </div>
@@ -191,7 +191,7 @@
                     <div class="web-services-img py-4">
                         <img class="img-fluid web-services-img-fluid" src="img/features/web5_support.png" alt="">
                     </div>
-                    <h4>Support and<br>
+                    <h4>Support and
                         Maintenance</h4>
                 </div>
             </div>

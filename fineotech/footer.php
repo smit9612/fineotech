@@ -92,6 +92,7 @@
 <script src="js/form-validator.min.js"></script>
 <script src="js/contact-form-script.js"></script>
 <script src="js/main.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 <!-- Google Maps API -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHo_WtZ2nIYCgCLf7sINZaqcrpqSDio9o"></script>
@@ -227,19 +228,26 @@ $(".navbar-nav li a").click(function(event) {
         $(".navbar-collapse").collapse('hide');
 });
 
-const button = document.querySelector('#submit')
 
-function materializeEffect(event) {
-    const circle = document.createElement('div')
-    const x = event.layerX
-    const y = event.layerY
-    circle.classList.add('circle')
-    circle.style.left = `${x}px`
-    circle.style.top = `${y}px`
-    this.appendChild(circle)
-}
+// $(document).ready(function() {
+//     $(".button-formgroup img").click(function() {
+//         alert("iiiii")
+//     })
+// });
 
-button.addEventListener('click', materializeEffect)
+// const button = document.querySelector('.button')
+
+// function materializeEffect(event) {
+//     const circle = document.createElement('div')
+//     const x = event.layerX
+//     const y = event.layerY
+//     circle.classList.add('circle')
+//     circle.style.left = `${x}px`
+//     circle.style.top = `${y}px`
+//     this.appendChild(circle)
+// }
+
+// button.addEventListener('click', materializeEffect)
 </script>
 
 
