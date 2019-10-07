@@ -18,8 +18,7 @@ if ($_POST['recaptcha']) {
     $responseData = json_decode($verifyResponse);
 
     if ($responseData->success) {
-        $to = "tirthen.shah@pixometryinfosoft.com";
-        // $to = "narendra.butani@pixometryinfosoft.com";
+        $to = "info@fineotech.com";
         $replay = trim($_POST['email']);
         $name = trim($_POST['name']);
         $subject = trim($_POST['subject']);
