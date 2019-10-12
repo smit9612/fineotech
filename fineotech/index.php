@@ -210,6 +210,139 @@
     </div>
 </section>
 
+
+<section id="team" class="team pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="team-header col-md-8">
+                    <p class="team-title team-heading-text-1"><span>Our Team
+                        </span></p>
+                    <p class="blogt team-text-1 text-center">This is the force behind Fineotech who ensure that
+                        solutions built function swiftly, are highly secure and can be scaled to meet client objectives.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="slider-container">
+                    <div class="slider-content">
+                        <div class="slider-single">
+                            <div class="card team-card">
+                                <div class="card-body team-body">
+                                    <div class="row">
+                                        <div class="col-md-5 custome-team-image">
+                                            <img class="slider-single-image" src="img/hero-area.jpg" alt="1" />
+                                        </div>
+                                        <div class="col-md-7 custome-team-name">
+                                            <p class="team-name">Smitesh Patel</p>
+                                            <p class="team-position">Technology Head</p>
+                                        </div>
+                                    </div>
+                                    <div class="row custome-team-text">
+                                        <p class="card-text team-text">
+                                            Advanced iOS developer with over 15yrs of experience, has successfully
+                                            created and deployed complex, user-centric software applications with high
+                                            level of quality and efficiency encrypted with privacy and security of the
+                                            highest order. Proficient in cross-platform development, has advanced
+                                            knowledge of applications, tools, methodologies and industry best practices.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card-footer team-footer"></div>
+                            </div>
+                        </div>
+
+                        <div class="slider-single">
+                            <div class="card team-card">
+                                <div class="card-body team-body">
+                                    <div class="row">
+                                        <div class="col-md-5 custome-team-image">
+                                            <img class="slider-single-image" src="img/hero-area.jpg" alt="1" />
+                                        </div>
+                                        <div class="col-md-7 custome-team-name">
+                                            <p class="team-name">Visha Sanghvi</p>
+                                            <p class="team-position">Project Head</p>
+                                        </div>
+                                    </div>
+                                    <div class="row custome-team-text">
+                                        <p class="card-text team-text">
+                                            Proven record of success in all phases of technology projects, an expert
+                                            swift developer having in depth understanding of iOS and UI design
+                                            paradigms. Experienced business strategist with expertise in planning and
+                                            managing multimillion- dollar projects by successfully aligning business
+                                            goals with technology solutions.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card-footer team-footer"></div>
+                            </div>
+                        </div>
+
+                        <div class="slider-single">
+                            <div class="card team-card">
+                                <div class="card-body team-body">
+                                    <div class="row">
+                                        <div class="col-md-5 custome-team-image">
+                                            <img class="slider-single-image" src="img/hero-area.jpg" alt="1" />
+                                        </div>
+                                        <div class="col-md-7 custome-team-name">
+                                            <p class="team-name">Harsh Solanki</p>
+                                            <p class="team-position">Business Development</p>
+                                        </div>
+                                    </div>
+                                    <div class="row custome-team-text">
+                                        <p class="card-text team-text">
+                                            Experienced Senior Sales Professional with Global traction and demonstrated
+                                            history of working in the IT Infrastructure industry and working with
+                                            Fortune 500 companies and offering Business Solutions to suit their goals
+                                            and organizational fabric. Value & solutions driven with experience in
+                                            leading cross-functional teams to plan, build, launch and manage world-class
+                                            SaaS innovations.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card-footer team-footer"></div>
+                            </div>
+                        </div>
+
+                        <div class="slider-single">
+                            <div class="card team-card">
+                                <div class="card-body team-body">
+                                    <div class="row">
+                                        <div class="col-md-5 custome-team-image">
+                                            <img class="slider-single-image" src="img/hero-area.jpg" alt="1" />
+                                        </div>
+                                        <div class="col-md-7 custome-team-name">
+                                            <p class="team-name">Balasaida Burri</p>
+                                            <p class="team-position">Principal Developer</p>
+                                        </div>
+                                    </div>
+                                    <div class="row custome-team-text">
+                                        <p class="card-text team-text">
+                                            Experienced iOS developer proficient in engineering robust, user-focused
+                                            solutions driving breakthrough efficiency and results, experienced in
+                                            delivering mission-critical projects. Skilled in all phases of SDLC, expert
+                                            in translating requirements into technical solutions while maintaining
+                                            quality, security and scalability.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card-footer team-footer"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="slider-left" href="javascript:void(0);"><img class="slider-single-image"
+                            src="img/features/Left.png" alt="1" /></a>
+
+                    <a class="slider-right" href="javascript:void(0);"><img class="slider-single-image"
+                            src="img/features/Right.png" alt="1" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <section id="blog" class="blog pt-5 pb-5">
     <div class="container">
         <div class="row align-items-center">
@@ -217,7 +350,8 @@
                 <div class="blog-header col-md-8">
                     <p class="blog-title blog-heading-text-1"><span>Our Blog
                         </span></p>
-                    <p class="blogt blog-text-1 text-center">Learn about the latest in the technology industry, FinTech
+                    <p class="blogt blog-text-1 text-center">Learn about the latest in the technology industry,
+                        FinTech
                         and Banking, Financial services, and Insurance (BSFI) from the experts and curators at
                         Fineotech. Also, see updates about our new venture, products and projects.
                     </p>
@@ -233,21 +367,30 @@
                         <p class="card-title card-title-text">10 Ways To Build A website</p>
                         <!-- </div> -->
                         <!-- <div class="card-contents"> -->
-                        <p class="card-text blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
-                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
-                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                        <p class="card-text blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe
+                            accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa
+                            dolorum
                             voluptates?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
-                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
-                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe
+                            accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa
+                            dolorum
                             voluptates?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
-                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
-                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe
+                            accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa
+                            dolorum
                             voluptates?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
-                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
-                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe
+                            accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa
+                            dolorum
                             voluptates?</p>
                         <!-- </div> -->
                     </div>
@@ -269,7 +412,8 @@
                         <div class="blog-part-2-content">
                             <div class="card-body blog-body-2">
                                 <!-- <div class="card-header"> -->
-                                <p class="card-title card-title-text-2">Things To Keep In Mind While Developing</p>
+                                <p class="card-title card-title-text-2">Things To Keep In Mind While Developing
+                                </p>
                                 <!-- </div> -->
                             </div>
                             <div class="card-footer footer-2">
