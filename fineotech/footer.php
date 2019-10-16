@@ -4,7 +4,7 @@
             <div class="col-md-3 custome-footer-links">
                 <div class="text-white text-left">
                     <a class="navbar-brand footer-logo" href="/"><img src="img/features/logo.png" alt="" /></a>
-                    <p class="address-text">437M, Belmount Road <br> Helvitica Springs,120029</p>
+                    <p class="address-text">36 King Street, 4th Floor <br> Toronto, ON, M5C 1E5</p>
                 </div>
             </div>
             <div class="col-md-2 custome-footer-links">
@@ -45,7 +45,7 @@
         <div class="row">
             <div class="col">
                 <div class="copyright-section text-white text-left">
-                    <p class="footer-text">&copy; 2019 fineotech.com </p>
+                    <p class="footer-text">&copy; 2019 fineotech.io </p>
                 </div>
             </div>
             <div class="col-md-3">

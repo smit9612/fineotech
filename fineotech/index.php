@@ -231,7 +231,7 @@
                                 <div class="card-body team-body">
                                     <div class="row">
                                         <div class="col-md-5 custome-team-image">
-                                            <img class="slider-single-image" src="img/hero-area.jpg" alt="1" />
+                                            <img class="slider-single-image" src="img/smit.jpg" alt="1" />
                                         </div>
                                         <div class="col-md-7 custome-team-name">
                                             <p class="team-name">Smitesh Patel</p>
