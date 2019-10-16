@@ -137,7 +137,7 @@
                                             </button>
                                             <div class="clearfix"></div>
                                         </div>
-                                        <div class="col-12 form-group text-left">
+                                        <div class="col-md-12 form-group text-left">
                                             <div class="g-recaptcha"
                                                 data-sitekey="6Ldd3bsUAAAAADJcazsUG4c_dATOOpRUV_z_Bbi4"></div>
                                         </div>

@@ -264,3 +264,19 @@ $(document).on("ready", function() {
   });
   slideInitial();
 });
+
+$("element").hasClass("className");
+
+$(document).on("ready", function() {
+  if ($(".contact-form .form-group").hasClass(".has-error")) {
+    alert("hiii");
+  }
+});
+
+$(document).ready(function() {
+  $("#contactForm button").click(function() {
+    if ($("#contactForm .form-group").hasClass(".has-error")) {
+      alert("error");
+    }
+  });
+});
