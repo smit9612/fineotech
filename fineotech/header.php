@@ -75,9 +75,8 @@
                         <div class="row justify-content-md-center">
                             <div class="col-md-8 col-sm-8">
                                 <div class="contact-block">
-                                    <p class="contact-email">info@fineotech.com</p>
-                                    <p class="contact-address">437 M, Belmount Road
-                                        Helvitica Springs, 120029</p>
+                                    <p class="contact-email">info@fineotech.io</p>
+                                    <p class="contact-address">36 King Street, 4th Floor, Toronto, ON, M5C 1E5</p>
                                 </div>
                                 <hr class="contact-hr">
                             </div>
