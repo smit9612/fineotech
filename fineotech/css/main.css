@@ -525,20 +525,23 @@ button:focus {
   overflow: hidden;
   background: #2c3e50;
 }
+#carousel-area .carousel-inner {
+  height: 650px;
+}
 #carousel-area .carousel-item {
   background-size: 100%;
   background-size: cover;
 }
 #carousel-area .carousel-item .carousel-caption {
-  top: 34%;
+  top: 25%;
   right: 10%;
   left: 10%;
   text-shadow: none;
 }
 #carousel-area .carousel-item .carousel-caption h1 {
   font-weight: 100;
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 100px;
+  line-height: 110px;
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
   -webkit-animation-duration: 1.2s;

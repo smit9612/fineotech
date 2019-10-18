@@ -35,8 +35,8 @@
 
 </head>
 
-
 <body>
+    <!-- Header Section Start -->
     <header class="header-text-color">
         <nav class="navbar navbar-expand-md fixed-top scrolling-navbar mainmenu-area">
             <div class="container">
@@ -65,8 +65,9 @@
             </div>
         </nav>
     </header>
+    <!-- Header Section End --> 
 
-
+    <!-- Contact Section Start -->
     <section id="contact-form">
         <div id="mySidenav" class="sidenav">
             <section id="contact" class="contact-section">
@@ -150,3 +151,4 @@
             </section>
         </div>
     </section>
+    <!-- Contact Section End -->
