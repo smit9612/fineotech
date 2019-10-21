@@ -228,27 +228,6 @@ $(".navbar-nav li a").click(function(event) {
     if (!$(this).parent().hasClass('dropdown'))
         $(".navbar-collapse").collapse('hide');
 });
-
-
-// $(document).ready(function() {
-//     $(".button-formgroup img").click(function() {
-//         alert("iiiii")
-//     })
-// });
-
-// const button = document.querySelector('.button')
-
-// function materializeEffect(event) {
-//     const circle = document.createElement('div')
-//     const x = event.layerX
-//     const y = event.layerY
-//     circle.classList.add('circle')
-//     circle.style.left = `${x}px`
-//     circle.style.top = `${y}px`
-//     this.appendChild(circle)
-// }
-
-// button.addEventListener('click', materializeEffect)
 </script>
 
 
