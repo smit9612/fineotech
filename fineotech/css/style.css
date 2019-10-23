@@ -1,3 +1,11 @@
+@font-face
+{
+  font-family: 'Futura';
+  src:url('../fonts/Futura Std Medium.otf');  
+}
+#carousel-area .carousel-item .carousel-caption h1{
+  font-family: Futura;
+}
 .header-text-color .navbar-expand-md .navbar-nav .nav-link.active,
 .header-text-color .navbar-expand-md .navbar-nav .nav-link:hover,
 .header-text-color .navbar-expand-md .navbar-nav .nav-link:focus,
@@ -1781,6 +1789,90 @@ p.address-text {
   width: 100px;
 }
 
+/* product slider */
+.product-blog .product-blog-header .product-blog-title {
+  color: #000000;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+}
+
+.product-blog .product-blog-header .product-blog-text {
+  font-size: 18px;
+  padding-top: 20px;
+}
+/* blog part 1 */
+.product-blog .card.product-blog-card {
+  flex-grow: 1;
+  height: 500px;
+  width: 100%;
+  border-radius: 60px;
+  box-shadow: 1px 2px 8px 4px rgba(237, 237, 237, 1);
+  border: none;
+}
+
+.product-blog .product-blog-card .product-blog-image {
+  width: 100%;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  height: 240px;
+}
+
+.product-blog .card .product-footer {
+  /* background: #fff; */
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-top: none;
+  /* display: inline-flex; */
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.product-blog .card .product-footer p {
+  color: #333;
+  padding-top: 15px;
+  padding-right: 10px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.product-blog .card .product-footer.product-blog-btn {
+  font-size: 20px;
+}
+
+.product-blog .card .product-blog-body {
+  max-height: 328px;
+  overflow: hidden;
+}
+
+.product-blog .card .product-card-title-text {
+  font-size: 22px;
+  padding: 25px 0 5px 25px;
+  font-family: raleway;
+  font-weight: 600;
+}
+
+.product-blog .card .product-footer .product-blog-btn {
+  font-size: 65px;
+  color: #00aeef;
+}
+
+.product-blog .card .product-blog-text {
+  padding: 0 30px;
+  color: #333;
+  line-height: normal;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.product-blog .card .card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
 /* team */
 .team .team-header .team-title {
   color: #000000;
@@ -2557,6 +2649,35 @@ p.address-text {
     .team-position {
     transform: translateX(-4%) scale(0.8);
   }
+
+  #carousel-area .carousel-inner {
+    height: 402px;
+  }
+
+ .carousel .carousel-inner .carousel-item .carousel-image-1 {
+    content: url("../img/slider/Scale767x402.png");
+  }
+
+  .carousel .carousel-inner .carousel-item .carousel-image-2 {
+    content: url("../img/slider/Secure767x402.png");
+  }
+
+  .carousel .carousel-inner .carousel-item .carousel-image-3 {
+    content: url("../img/slider/Swift767x402.png");
+	}
+
+  #carousel-area .carousel-item .carousel-caption {
+    top: 48%;
+  }
+
+  #carousel-area .carousel-item .carousel-caption h1 {
+    font-size: 60px;
+    line-height: 70px;
+  } 
+
+  .carousel-control-next, .carousel-control-prev {
+    top: 25%;
+  }
 }
 
 @media screen and (max-width: 612px) {
@@ -3159,6 +3280,41 @@ p.address-text {
     .custome-team-name
     .team-position {
     transform: translateX(20%) scale(0.8);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #carousel-area .carousel-inner {
+    height: 350px;
+  }
+
+  .carousel .carousel-inner .carousel-item .carousel-image-1 {
+    content: url("../img/slider/Scale667x350.png");
+  }
+
+  .carousel .carousel-inner .carousel-item .carousel-image-2 {
+    content: url("../img/slider/Secure667x350.png");
+  }
+
+  .carousel .carousel-inner .carousel-item .carousel-image-3 {
+    content: url("../img/slider/Swift667x350.png");
+  }
+
+  #carousel-area .carousel-item .carousel-caption {
+    top: 48%;
+  }
+
+  #carousel-area .carousel-item .carousel-caption h1 {
+    font-size: 40px;
+    line-height: 80px;
+  }
+
+  .carousel-control-next, .carousel-control-prev{
+    top: 30%;
+  }
+
+  #carousel-area .carousel-indicators {
+    bottom: 20px;
   }
 }
 

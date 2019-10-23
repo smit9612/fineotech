@@ -10,22 +10,22 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <img src="img/slider/Scale.png" alt="">
+                <img src="img/slider/Scale2002x650.png" class="carousel-image-1" alt="">
                 <div class="carousel-caption">
-                <h1>Scale</h1>
-              </div>
+                    <h1>Scale</h1>
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="img/slider/Secure.png" alt="">
+                <img src="img/slider/Secure2002x650.png" class="carousel-image-2" alt="">
                 <div class="carousel-caption">
-                <h1 class="text-center">Secure</h1>
-              </div>
+                    <h1 class="text-center">Secure</h1>
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="img/slider/Swift.png" alt="">
+                <img src="img/slider/Swift2002x650.png" class="carousel-image-3" alt="">
                 <div class="carousel-caption">
-                <h1>Swift</h1>
-              </div>
+                    <h1>Swift</h1>
+                </div>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
@@ -205,6 +205,152 @@
     </div>
 </section>
 <!-- Analysis Section End -->
+
+<?php /*<!-- Product Section Start -->
+<section id="product-blog" class="product-blog pt-5 pb-5">
+    <div class="container-fluid">
+        <div class="row pt-5">
+            <div class="col-md-3">
+                <div class="card product-blog-card">
+                    <img class="card-img-top product-blog-image" src="img/hero-area.jpg" alt="Card image">
+                    <div class="card-body product-blog-body">
+                        <!-- <div class="card-header"> -->
+                        <p class="card-title product-card-title-text">Mobile App Development</p>
+                        <!-- </div> -->
+                        <!-- <div class="card-contents"> -->
+                        <p class="card-text product-blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?</p>
+                    </div>
+                    <div class="card-footer product-footer">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card product-blog-card">
+                    <img class="card-img-top product-blog-image" src="img/hero-area.jpg" alt="Card image">
+                    <div class="card-body product-blog-body">
+                        <!-- <div class="card-header"> -->
+                        <p class="card-title product-card-title-text">Mobile App Development</p>
+                        <!-- </div> -->
+                        <!-- <div class="card-contents"> -->
+                        <p class="card-text product-blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?</p>
+                    </div>
+                    <div class="card-footer product-footer">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card product-blog-card">
+                    <img class="card-img-top product-blog-image" src="img/hero-area.jpg" alt="Card image">
+                    <div class="card-body product-blog-body">
+                        <!-- <div class="card-header"> -->
+                        <p class="card-title product-card-title-text">Mobile App Development</p>
+                        <!-- </div> -->
+                        <!-- <div class="card-contents"> -->
+                        <p class="card-text product-blog-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa dolorum
+                            voluptates?</p>
+                    </div>
+                    <div class="card-footer product-footer">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card product-blog-card">
+                    <img class="card-img-top product-blog-image" src="img/hero-area.jpg" alt="Card image">
+                    <div class="card-body product-blog-body">
+                        <!-- <div class="card-header"> -->
+                        <p class="card-title product-card-title-text">Mobile App Development</p>
+                        <!-- </div> -->
+                        <!-- <div class="card-contents"> -->
+                        <p class="card-text product-blog-text">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.
+                            Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe
+                            accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa
+                            dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe
+                            accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa
+                            dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe
+                            accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa
+                            dolorum
+                            voluptates?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+                            consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe
+                            accusantium
+                            aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa
+                            dolorum
+                            voluptates?</p>
+                    </div>
+                    <div class="card-footer product-footer">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Product Section end -->
+*/?>
 
 <!-- Team Section Start -->
 <section id="team" class="team pt-5">
