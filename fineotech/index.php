@@ -9,10 +9,10 @@
             <li data-target="#carousel-slider" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <img src="img/slider/Scale2002x650.png" class="carousel-image-1" alt="">
+        <div class="carousel-item active">
+                <img src="img/slider/Swift2002x650.png" class="carousel-image-3" alt="">
                 <div class="carousel-caption">
-                    <h1>Scale</h1>
+                    <h1>Swift</h1>
                 </div>
             </div>
             <div class="carousel-item">
@@ -22,9 +22,9 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/slider/Swift2002x650.png" class="carousel-image-3" alt="">
+                <img src="img/slider/Scale2002x650.png" class="carousel-image-1" alt="">
                 <div class="carousel-caption">
-                    <h1>Swift</h1>
+                    <h1>Scale</h1>
                 </div>
             </div>
         </div>
