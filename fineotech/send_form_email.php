@@ -10,12 +10,7 @@ if ($_POST['recaptcha']) {
         require_once 'lib/class.smtp.php';
     }
 
-    // $ip = $_SERVER['REMOTE_ADDR'];
-    // $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $_POST['recaptcha'] . "&remoteip=" . $ip);
-    // $responseData = json_decode($response, true);
-
-    $verifyResponse = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $_POST['recaptcha']); 
-    //file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=6LcaN78UAAAAAN6d_LIhpv3ME2IdJz0MXy8Fgx1b&response=' . $_POST['recaptcha']);
+    $verifyResponse = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $_POST['recaptcha']);
     $responseData = json_decode($verifyResponse);
 
     if ($responseData->success) {
@@ -39,14 +34,13 @@ if ($_POST['recaptcha']) {
         $body .= "</table>";
         $body .= "</body></html>";
         $mailConfig = [
-            "host" => "192.168.100.21",
+            "host" => "smtp.gmail.com",
             "smtp_debug" => 0,
-            "smtp_auth" => false,
+            "smtp_auth" => true,
             "username" => "info@fineotech.io",
             "password" => "Noreply@123",
-            "smtp_secure" => "none",
-            "port" => 25,
-            "smtp_auto_tls" => false,
+            "smtp_secure" => "tls",
+            "port" => 587,
             "from" => "info@fineotech.io",
             "from_name" => "Mailer",
         ];
