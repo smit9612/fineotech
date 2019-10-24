@@ -1,7 +1,7 @@
 <?php
 if ($_POST['recaptcha']) {
     // access
-    $secretKey = '6Ldd3bsUAAAAAPg38Khsy142B6SmAlE-9he7QXx1';
+    $secretKey = '6LcaN78UAAAAAN6d_LIhpv3ME2IdJz0MXy8Fgx1b';
 
     if (file_exists('lib/class.phpmailer.php')) {
         require_once 'lib/class.phpmailer.php';
@@ -14,7 +14,8 @@ if ($_POST['recaptcha']) {
     // $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $_POST['recaptcha'] . "&remoteip=" . $ip);
     // $responseData = json_decode($response, true);
 
-    $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=6Ldd3bsUAAAAAPg38Khsy142B6SmAlE-9he7QXx1&response=' . $_POST['recaptcha']);
+    $verifyResponse = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $_POST['recaptcha']); 
+    //file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=6LcaN78UAAAAAN6d_LIhpv3ME2IdJz0MXy8Fgx1b&response=' . $_POST['recaptcha']);
     $responseData = json_decode($verifyResponse);
 
     if ($responseData->success) {
@@ -41,12 +42,12 @@ if ($_POST['recaptcha']) {
             "host" => "192.168.100.21",
             "smtp_debug" => 0,
             "smtp_auth" => false,
-            "username" => "noreply@pixometryinfosoft.com",
+            "username" => "info@fineotech.io",
             "password" => "Noreply@123",
             "smtp_secure" => "none",
             "port" => 25,
             "smtp_auto_tls" => false,
-            "from" => "noreply@pixometryinfosoft.com",
+            "from" => "info@fineotech.io",
             "from_name" => "Mailer",
         ];
         $mail = new PHPMailer(true);
