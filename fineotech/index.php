@@ -394,7 +394,7 @@
                             </div>
                         </div>
 
-                        <div class="slider-single">
+                        <!-- <div class="slider-single">
                             <div class="card team-card">
                                 <div class="card-body team-body">
                                     <div class="row">
@@ -418,7 +418,7 @@
                                 </div>
                                 <div class="card-footer team-footer"></div>
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="slider-single">
                             <div class="card team-card">
