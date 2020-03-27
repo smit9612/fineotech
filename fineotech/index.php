@@ -419,13 +419,13 @@
                                 <div class="card-footer team-footer"></div>
                             </div>
                         </div> -->
-
+                        
                         <div class="slider-single">
                             <div class="card team-card">
                                 <div class="card-body team-body">
                                     <div class="row">
                                         <div class="col-md-5 custome-team-image">
-                                            <img class="slider-single-image" src="img/hero-area.jpg" alt="1" />
+                                            <img class="slider-single-image" src="img/harshsolanki.jpeg" alt="1" />
                                         </div>
                                         <div class="col-md-7 custome-team-name">
                                             <p class="team-name">Harsh Solanki</p>
@@ -446,7 +446,27 @@
                                 <div class="card-footer team-footer"></div>
                             </div>
                         </div>
-
+                        <div class="slider-single">
+                            <div class="card team-card">
+                                <div class="card-body team-body">
+                                    <div class="row">
+                                        <div class="col-md-5 custome-team-image">
+                                            <img class="slider-single-image" src="img/snehalpatel.jpg" alt="1" />
+                                        </div>
+                                        <div class="col-md-7 custome-team-name">
+                                            <p class="team-name">Snehal Patel</p>
+                                            <p class="team-position">Lead Web Developer</p>
+                                        </div>
+                                    </div>
+                                    <div class="row custome-team-text">
+                                        <p class="card-text team-text">
+                                        Versatile Front-end and Back-end Developer with 5+ years of experience designing, developing, and managing complex e-commerce sites and internal frameworks. Specializes in AngularJS and responsive design. Designed and developed real-time data processing application as well as improvement processes in Travel and Communication Financial Verticals.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card-footer team-footer"></div>
+                            </div>
+                        </div>
                         <div class="slider-single">
                             <div class="card team-card">
                                 <div class="card-body team-body">
@@ -486,7 +506,7 @@
 <!-- Team Section End -->
 
 <!-- Blog Section Start -->
-<section id="blog" class="blog pt-5 pb-5">
+<!-- <section id="blog" class="blog pt-5 pb-5">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-12">
@@ -506,10 +526,8 @@
                 <div class="card blog-card">
                     <img class="card-img-top blog-image" src="img/hero-area.jpg" alt="Card image">
                     <div class="card-body blog-body">
-                        <!-- <div class="card-header"> -->
-                        <p class="card-title card-title-text">10 Ways To Build A website</p>
-                        <!-- </div> -->
-                        <!-- <div class="card-contents"> -->
+                        
+                        
                         <p class="card-text blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Quos sed
                             consectetur recusandae enim voluptatibus, maxime corporis. Deleniti saepe
@@ -535,7 +553,7 @@
                             aspernatur commodi dolores architecto consequatur obcaecati assumenda! In ipsa
                             dolorum
                             voluptates?</p>
-                        <!-- </div> -->
+                        
                     </div>
                     <div class="card-footer footer">
                         <p>Read Full Blog</p><button id="submit" type="submit"><img class="read-btn"
@@ -543,7 +561,6 @@
                     </div>
                 </div>
             </div>
-            <!-- blog 2 -->
             <div class="col-md-6">
                 <div class="card blog-card-2">
                     <div class="col-md-4 col-sm-4 pl-0">
@@ -554,10 +571,9 @@
                     <div class="col-md-8 col-sm-8">
                         <div class="blog-part-2-content">
                             <div class="card-body blog-body-2">
-                                <!-- <div class="card-header"> -->
                                 <p class="card-title card-title-text-2">Things To Keep In Mind While Developing
                                 </p>
-                                <!-- </div> -->
+                                
                             </div>
                             <div class="card-footer footer-2">
                                 <p>Read Blog</p><button id="submit" type="submit"><img class="read-btn"
@@ -576,9 +592,7 @@
                     <div class="col-md-8 col-sm-8 col-xs-8">
                         <div class="blog-part-3-content">
                             <div class="card-body blog-body-3">
-                                <!-- <div class="card-header"> -->
                                 <p class="card-title card-title-text-3">What Is Cloud Integration?</p>
-                                <!-- </div> -->
                             </div>
                             <div class="card-footer footer-3">
                                 <p>Read Blog</p><button id="submit" type="submit"><img class="read-btn"
@@ -590,7 +604,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Blog Section End -->
 
 <?php require './footer.php'?>

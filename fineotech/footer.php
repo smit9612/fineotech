@@ -46,7 +46,7 @@
         <div class="row">
             <div class="col">
                 <div class="copyright-section text-white text-left">
-                    <p class="footer-text">&copy; 2019 fineotech.io </p>
+                    <p class="footer-text">&copy; 2020 fineotech.io </p>
                 </div>
             </div>
             <div class="col-md-3">

@@ -1,7 +1,7 @@
 <?php
 if ($_POST['recaptcha']) {
     // access
-    $secretKey = '6LcaN78UAAAAAN6d_LIhpv3ME2IdJz0MXy8Fgx1b';
+    $secretKey = '6LcbOr8UAAAAAFWlP8ycarR6fzWqSGIUoixM5Ezz';
 
     if (file_exists('lib/class.phpmailer.php')) {
         require_once 'lib/class.phpmailer.php';
@@ -38,7 +38,7 @@ if ($_POST['recaptcha']) {
             "smtp_debug" => 0,
             "smtp_auth" => true,
             "username" => "info@fineotech.io",
-            "password" => "Noreply@123",
+            "password" => "JayMaharaj7#",
             "smtp_secure" => "tls",
             "port" => 587,
             "from" => "info@fineotech.io",
